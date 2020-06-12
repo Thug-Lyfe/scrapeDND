@@ -1,0 +1,381 @@
+<!--
+Readme, 
+1. open det med en browser eller whatnot, 
+2. print
+3. ændrer til ikke at printer headers og footers, og tjek at den skal printer baggrunde
+4. set custom marginer på, og fjern margen fra højre side (så baneret i toppen går til kanten.)
+5. gem
+
+
+-->
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <script>
+
+        function rating(title, filler, rating) {
+            let temp = '<div class="outer_skill"><span><u><b id ="title">' + title + '</b></u></span>'
+            if (filler != "") {
+                temp += '<span id="filler">' + filler + '</span>'
+            }
+            temp += '<div class="rating">'
+            let tempf = "";
+            for (let i = 0; i < rating; i++) {
+                tempf += '<i class="fas fa-circle"></i>';
+            }
+            for (let i = 0; i < 5 - rating; i++) {
+                tempf += '<i class="far fa-circle"></i>';
+            }
+            temp += tempf + '</div></div>'
+
+            document.getElementById("header_skills").innerHTML += temp
+
+        }
+
+    </script>
+    <style>
+        .outer_skill {
+            margin-bottom: 15px;
+        }
+
+        .contact {
+            margin-bottom: 5px
+        }
+
+        img {
+            width: Calc(29.7cm*0.2);
+            overflow: hidden;
+            border-radius: 50%;
+            border: lightblue 3px;
+            margin: 5px 5px 10px -5px
+        }
+
+        .address {
+            width: 5%;
+            float: left;
+            color: RGB(71, 144, 153);
+        }
+
+        .address_span {
+            width: 80%;
+            padding-left: 15px;
+            float: left
+        }
+
+        .outer_skill span {
+            width: 100%;
+            padding-left: 15px;
+            margin-bottom: 5px;
+            float: left;
+        }
+
+        .rating {
+            margin-left: 14px;
+            color: RGB(71, 144, 153);
+        }
+
+        .header_name {
+            width: calc(78% - 70px - 1.8cm);
+            background-color: RGB(71, 144, 153);
+            border-width: 0 5px 0 0;
+            border-style: solid;
+            border-color: RGB(71, 144, 153);
+            float: right;
+            color: whitesmoke;
+            padding: 10px 1.8cm 10px 20px;
+            margin: 5px 0 0 0
+        }
+
+        .header_skills {
+            width: 20%;
+            float: left;
+        }
+
+        #header_skills {
+
+            margin: 0 -60px 0 5px;
+            padding-right: 30px;
+
+            height: 100%;
+        }
+
+        .name {
+            font-size: 35px;
+        }
+
+        .title {
+            font-size: 27px;
+            margin-bottom: 5px;
+        }
+
+        .title2 {
+            font-size: 18px;
+            margin-bottom: 1px;
+        }
+
+        .work_exp {
+            border-width: 0 0 0 5px;
+            border-style: solid;
+            border-color: RGB(71, 144, 153);
+            width: calc(78% - 70px - 1.8cm);
+            float: right;
+            padding: 10px 1.8cm 10px 20px;
+            margin: 0 0 0 0;
+
+        }
+
+
+
+        .desc {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            margin-bottom: 0
+        }
+
+        p {
+            margin-top: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="width:calc(21cm + 1.8cm);height:29.7cm;">
+        <div class="header_skills">
+
+            <div id="header_skills">
+                <img src="./photo.png">
+                <div class="contact">
+                    <i class="fas fa-map-marker-alt address"></i>
+                    <span class="address_span">
+                        <u>
+                            <i>
+                                <b>Dronning Margrethes vej 22 st th,<br> 4000 Roskilde</b>
+                            </i>
+                        </u>
+                    </span>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="contact">
+                    <i class="fas fa-envelope address"></i>
+                    <span class="address_span">
+                        <u>
+                            <i>
+                                <b>marco8jnv@hotmail.com</b>
+                            </i>
+                        </u>
+                    </span>
+                </div>
+                <br>
+
+                <div class="contact">
+                    <i class="fab fa-linkedin address"></i>
+                    <span class="address_span">
+                        <u>
+                            <i>
+                                <b>linkedin.com/in/marco-s-blum</b>
+                            </i>
+                        </u>
+                    </span>
+                </div>
+                <br>
+                <br>
+                <div class="contact">
+                    <i class="fab fa-github address"></i>
+                    <span class="address_span">
+                        <u>
+                            <i>
+                                <b>github.com/Thug-Lyfe</b>
+                            </i>
+                        </u>
+                    </span>
+                </div>
+                <br>
+                <div class="contact">
+                    <i class="fas fa-mobile-alt address"></i>
+                    <span class="address_span">
+                        <u>
+                            <i>
+                                <b>+4540219259</b>
+                            </i>
+                        </u>
+                    </span>
+                </div>
+                <br>
+                <div class="contact">
+                    <i class="fas fa-calendar-day address"></i>
+                    <span class="address_span">
+                        <u>
+                            <i>
+                                <b>26/08/1992</b>
+                            </i>
+                        </u>
+                    </span>
+                </div>
+                <br>
+                <hr>
+
+                <script>
+                    rating("Javascript & html:", "Jquery, AngularJS/4, Node.js, ExpressJS, Ionic, HTML5", 5);
+                    rating("Databases:", "MySQL, PostgreSQL, MongoDB & Neo4J", 4);
+                    rating("Software Testing:", "Java & Node, Junit4/5, Hamcrest, Mocking, Data Driven Testing & Selenium", 4);
+                    rating("Agile development:", "Extreme Programming, SCRUM", 4);
+                    rating("Docker, jenkins & Git ", "", 3);
+                    rating("Backend:", "Architecture, Design, Implementation & Maintenance", 3);
+
+
+                </script>
+                <p style="font-size:13px;margin-top:75px"><b><u><i>GDPR : I consent to keeping my details on file and distribution for employment services.</i></u></b></p>
+            </div>
+
+        </div>
+        <div class="">
+            <div class="header_name">
+                <span class="name">Marco Schäffer Blum</span>
+                <hr>
+                <span class="title">Software Developer</span>
+                <br>
+                <br>
+                <span>
+                    Newly graduated from CPH Academy, with a Bachelor in Software Development.
+                    <br>Fluent in Danish and English.
+                    <br>Versatile Software developer, with skills ranging Testing, Frontend and Backend.
+                    <br>A quick learner and fast to adapt new environments and challenges.
+                </span>
+            </div>
+            <div class="work_exp">
+                <span class="title">
+                    <b>Work Experience</b>
+                    <hr>
+                </span>
+                <ul>
+                    <li>
+                        <p class="title2">
+                            Software Developer at Danske Bank Customer Systems,
+                            <br>2018
+                        </p>
+                    </li>
+                </ul>
+                <p class="desc">As a developer in Danske Bank i worked with their database and integrating and/or
+                    developing new features for other departments</p>
+                <ul>
+                    <li>
+                        <p class="title2">Software Engineer at "Konsulent Overblik",
+                            <br>2017</p>
+                    </li>
+                </ul>
+                <p class="desc">Developing their company platform, first as Wordpress and later as MEAN stack</p>
+                <ul>
+                    <li>
+                        <p class="title2">
+                            Various: Child Care, Warehouse Worker, Dishwasher, Bartender, Waiter
+                            <br>2008-current</p>
+                    </li>
+                </ul>
+                <p class="desc">
+                    I have done a lot of union work in and around Roskilde, for kumunal events with guests from 50-400
+                    people. <br>
+                    Throughout my many different experiences, I have developed a strong core of communication skills,
+                    which
+                    help me work better and faster with new Colleagues or environments.
+                </p>
+            </div>
+
+
+            <div class="work_exp">
+                <span class="title">
+                    <b>Education</b>
+                    <hr>
+                </span>
+
+                <ul>
+                    <li>
+                        <p class="title2">
+                            <b>Copenhagen Business Academy</b>, Lyngby – Bachelor in Software Development
+                            <br>2017-2019, <span style="font-size: 12px">Average grade: 9.2</span></p>
+                    </li>
+                </ul>
+                <p class="desc">A Bachelor that builds upon my Computer Science degree, with courses such as:
+                    Large System Development, System Integration, Testing & Algorithms</p>
+                <ul>
+                    <li>
+                        <p class="title2">
+                            <b>Copenhagen Business Academy</b>, Lyngby – Computer Science
+                            <br>2015-2017</p>
+                    </li>
+                </ul>
+                <p class="desc">Starting my Software education by Learning Java, MEAN Stack, Relational Databases,
+                    NoSQL/SQL,
+                    App
+                    Development etc.</p>
+                <ul>
+                    <li>
+                        <p class="title2">
+                            <b>Technical University of Denmark</b>, Lyngby – Geophysics and Space Technology
+                            <br>2013-2015, <span style="font-size: 12px">Not finished</span> </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work_exp">
+                <span class="title">
+                    <b>Personal Projects & Hobbies</b>
+                    <hr>
+                </span>
+                <div>
+                    <ul>
+                        <li>
+                            <p class="title2">
+                                <b>Repatask</b>, an Ionic app
+                                <br>2018/July-2018/Nov</p>
+                        </li>
+                    </ul>
+                    <p class="desc">An app made to automate repeatable tasks. A side project to further understand
+                        typescript, Angular4 and the Ionic framework.</p>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <p class="title2">
+                                <b>Game optimization and automation</b>
+                                <br>2018-current</p>
+                        </li>
+                    </ul>
+                    <p class="desc"> Node.js, AngularJS and HTML5 for data scraping and web apps,<br>
+                        MongoDB & Excel for data storage,<br>
+                        AHK scripts for automation </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!--
+Jeg er en snarlig uddannet Software udvikler, jeg færdiggøre min Bachelor den 21. Januar, hvor jeg har skrevet min Bachelor omkring Legacy Systemer, herunder PL/I og DB2.
+
+Under min uddannelse har jeg arbejdet med en lang række af værktøjer og frameworks. NOSQL, SQL, Java, Javascript og AngularJS er de mest udbredte. 
+
+I min fritid har arbejdet flere gange Ionic, ingen af mine projekter er dog færdiggjorte, men jeg har igennem dem fået erfaring med android udvikling og udgive apps til googlePlay Store.
+
+
+
+
+
+På bachelor uddannelsen på CPH Academy, er det obligatorisk at have to praktikperioder på 3 måneder hver.
+
+1. I min første praktik var jeg i et startup konsulentfirma, hvor jeg arbejde i Wordpress og MEAN stack, her udviklede jeg deres platform.
+2. I min anden praktik arbejdede jeg i Danske Bank's Customer Systems afdeling i Ejby, hvor jeg arbejdede med PL/I og DB2, her udviklede jeg interne systemer til brug af andre afdelinger.
+
+Jeg valgte de to praktiksteder, specifikt for at erfare ekstremerne af jobmarkedet. Det bliver ikke end mere iterativ proces end et startup firma, og man får svært ved at finde et arbejde med mindre bureaukratisk tilsyn end Danmarks største bank.
+
+
+-->

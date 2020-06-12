@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        </head>
+    
+    <body>
+        <script>
+            /*
+            
+            */
+    
+            $.getJSON( "./spells", function( data ) {
+                
+            
+            data.d = data.Cantrip 
+            $('#thetable tr').not(':first').remove();
+            for(let i = 1; i < 10;i++){
+                
+                data.d = data.d.concat(data[i.toString()])
+            }
+            
+            var html = '';
+            for(var i = 0; i < data.d.length; i++)
+                        html += '<tr><td>' + data.d[i] + '</td><td>' + data.d[i].Age + '</td></tr>';
+            $('#thetable tr').first().after(html);
+              });
+    
+        </script>
+        <table id="thetable">
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+            <tr>
+                <td>Middle row, will be deleted</td>
+                <td>You will not see this</td>
+            </tr>
+            <tr>
+                <td>row 2, cell 1</td>
+                <td>row 2, cell 2</td>
+            </tr>
+        </table>
+    </body>
+</html>

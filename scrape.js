@@ -1,5 +1,6 @@
 //const functions = require('firebase-functions')
 const cors = require('cors')({origin:true})
+
 const fs = require('fs');
 const cheerio = require('cheerio')
 const getUrls = require('get-urls')
@@ -7,8 +8,11 @@ const fetch = require('node-fetch')
 const TurndownService = require('turndown');
 const express = require('express')
 const turndownService = new TurndownService()
+var turndownPluginGfm = require('turndown-plugin-gfm')
+var gfm = turndownPluginGfm.gfm
+turndownService.use(gfm)
 
-const levelObj = {
+var levelObj = {
     'Cantrip': {},
     'Level 1': {},
     'Level 2': {},
@@ -38,24 +42,22 @@ const scrapeTags = (text) => {
             const index = em1.search(/\d/)
             var level = "Cantrip"
             if (index != -1){
-                level = "Level " + em1.slice(index,index+1);
+                level = "Level "+em1.slice(index,index+1);
             }
 
             const name = $('.page-title.page-header span').html()
             
             const classes = bodyTag.indexOf('Bard') != -1 ? ( bodyTag.indexOf('Sorcerer') != -1 ? 'Bard, Sorcerer' : 'Bard' ) : 'Sorcerer'
-            
-            if (levelObj[level][name] == null){
-                levelObj[level][name] = {
-                    level:level,
-                    markdown:markdown,
-                    classes:classes,
-                    name:name
-                }
+            var obj = {
+                level:level,
+                markdown:markdown,
+                classes:classes,
+                name:name
             }
-            return levelObj[level][name];
+            levelObj[level][name] = obj
+            return true;
         }else{
-            return {};
+            return false;
         }
         
     });
@@ -80,14 +82,38 @@ function httpGetAsync(theUrl,type, callback)
 
 
 
-const app = express()
-const port = 3000
 
+
+var startHtml = '<!DOCTYPE html><html><body>'
+var midHtml = '</script>'
+var endHtml = '</body></html>'
+
+
+function createFile(){
 httpGetAsync("http://dnd5e.wikidot.com/spells:bard","document",function(res){
     scrapeTags(res.responseText).then(results => {
         httpGetAsync("http://dnd5e.wikidot.com/spells:sorcerer","document",function(res2){
             scrapeTags(res2.responseText).then(results => {
-                fs.writeFile('PaladinSpellCompendium.md', JSON.stringify(levelObj,null,2), function (err) {
+                Object.keys(levelObj).forEach(function(level,index){
+                    var helper = []
+                    for(var i in levelObj[level]){
+                        helper.push(levelObj[level][i]);
+                    }
+                    helper.sort(function(a, b){
+                        if (a.level == b.level){
+                            if (a.name < b.name){
+                                return -1
+                            }else{
+                                return 1
+                            }
+                        }else{
+                            return a.level - b.level;
+                        }
+                    })
+                    levelObj[level] = helper
+
+                })
+                fs.writeFile('spells.json', JSON.stringify(levelObj,null,2), function (err) {
                     if (err) throw err;
                     console.log('Saved!');
                 });
@@ -95,4 +121,49 @@ httpGetAsync("http://dnd5e.wikidot.com/spells:bard","document",function(res){
         })
     });
 })
+}
+function prettyPrintFile(){
+    const source = require('./spells.json');
 
+    let str = "# MutliClassMarco";
+    str += "\n";
+
+    for (const spellLevel in source) {
+        str += "# " + spellLevel;
+        str += "\n";
+
+        source[spellLevel].forEach(function(spell){
+            str += "## " + spell.name;
+            str += "\n";
+            str += spell.markdown;
+            str += "\n";
+        })
+
+    }
+
+
+    fs.writeFile('MutliClassMarco.md', str, function (err) {
+        if (err) throw err;
+        console.log('Done!');
+    });
+}
+prettyPrintFile();
+//createFile();
+
+
+const app = express()
+const port = 3000
+
+app.get('/spells', (req, res) => 
+
+    res.sendFile(__dirname+'/spells.json', function (err) {
+        console.log(__dirname +'/spells.json')
+    if (err) {
+      next(err)
+    } else {
+      console.log(__dirname +'/spells.json')
+    }
+  })
+)
+app.get('/', (req, res) => res.sendFile(__dirname+'/index.html'));
+//app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
