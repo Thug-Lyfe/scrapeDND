@@ -27,6 +27,7 @@ var levelObj = {
 
 
 const scrapeTags = (text) => {
+    var base = fs.readFileSync('./base.txt');
     const url = Array.from(getUrls(text));
     const requests = url.map( async url => {
         if (url.indexOf("dnd5e.wikidot.com/spell") != -1 ){
@@ -46,6 +47,9 @@ const scrapeTags = (text) => {
             }
 
             const name = $('.page-title.page-header span').html()
+            if (name.toString().indexOf('(UA)') != -1){
+                return false;
+            }
             
             const classes = bodyTag.indexOf('Bard') != -1 ? ( bodyTag.indexOf('Sorcerer') != -1 ? 'Bard, Sorcerer' : 'Bard' ) : 'Sorcerer'
             var obj = {
@@ -53,6 +57,9 @@ const scrapeTags = (text) => {
                 markdown:markdown,
                 classes:classes,
                 name:name
+            }
+            if (base.indexOf(name) == -1){
+                obj.name += ' &#955';
             }
             levelObj[level][name] = obj
             return true;
@@ -89,42 +96,47 @@ var midHtml = '</script>'
 var endHtml = '</body></html>'
 
 
-function createFile(){
-httpGetAsync("http://dnd5e.wikidot.com/spells:bard","document",function(res){
-    scrapeTags(res.responseText).then(results => {
-        httpGetAsync("http://dnd5e.wikidot.com/spells:sorcerer","document",function(res2){
-            scrapeTags(res2.responseText).then(results => {
-                Object.keys(levelObj).forEach(function(level,index){
-                    var helper = []
-                    for(var i in levelObj[level]){
-                        helper.push(levelObj[level][i]);
-                    }
-                    helper.sort(function(a, b){
-                        if (a.level == b.level){
-                            if (a.name < b.name){
-                                return -1
-                            }else{
-                                return 1
-                            }
-                        }else{
-                            return a.level - b.level;
-                        }
-                    })
-                    levelObj[level] = helper
 
+function createFile(){
+    
+    httpGetAsync("http://dnd5e.wikidot.com/spells:bard","document",function(res){
+        scrapeTags(res.responseText).then(results => {
+            httpGetAsync("http://dnd5e.wikidot.com/spells:sorcerer","document",function(res2){
+                scrapeTags(res2.responseText).then(results => {
+                    Object.keys(levelObj).forEach(function(level,index){
+                        var helper = []
+                        for(var i in levelObj[level]){
+                            helper.push(levelObj[level][i]);
+                        }
+                        helper.sort(function(a, b){
+                            if (a.level == b.level){
+                                if (a.name < b.name){
+                                    return -1
+                                }else{
+                                    return 1
+                                }
+                            }else{
+                                return a.level - b.level;
+                            }
+                        })
+                        levelObj[level] = helper
+                        
+                    })
+                    fs.writeFile('spells.json', JSON.stringify(levelObj,null,2), function (err) {
+                        if (err) throw err;
+                        console.log('Saved!');
+                        prettyPrintFile();
+                    });
                 })
-                fs.writeFile('spells.json', JSON.stringify(levelObj,null,2), function (err) {
-                    if (err) throw err;
-                    console.log('Saved!');
-                });
             })
-        })
-    });
-})
+        });
+    })
 }
+
+
 function prettyPrintFile(){
     const source = require('./spells.json');
-
+    var count = 1;
     let str = "# MutliClassMarco";
     str += "\n";
 
@@ -133,21 +145,88 @@ function prettyPrintFile(){
         str += "\n";
 
         source[spellLevel].forEach(function(spell){
+            if (str.length / count > 5000){
+                str += '\\page \n'
+                count++;
+            }
             str += "## " + spell.name;
             str += "\n";
             str += spell.markdown;
             str += "\n";
         })
+        str += '\\page \n'
 
     }
-
+    
 
     fs.writeFile('MutliClassMarco.md', str, function (err) {
         if (err) throw err;
         console.log('Done!');
     });
 }
-prettyPrintFile();
+
+function prettyPrintFile2(){
+    const source = require('./spells.json');
+    var count = 1;
+    let str = ""
+
+    for (const spellLevel in source) {
+        str += "### " + spellLevel;
+        str += "\n";
+
+        source[spellLevel].forEach(function(spell,index){
+            
+            str += " - " + spell.name;
+            str += "\n";
+        })
+
+    }
+    
+
+    fs.writeFile('MutliClassMarcoTable.md', str, function (err) {
+        if (err) throw err;
+        console.log('Done!');
+    });
+}
+
+function scrapeTags2(text){
+    const $ = cheerio.load(text);
+
+    const bodyTag = $('.main-content').first().html();
+    const markdown = turndownService.turndown(bodyTag);
+    return markdown;
+}
+
+function createFile2(){
+    
+    httpGetAsync("http://dnd5e.wikidot.com/bard","document",function(res){
+        fs.writeFile('bard.md', scrapeTags2(res.responseText), function (err) {
+            if (err) throw err;
+            console.log('Done!');
+        });
+    })
+    httpGetAsync("http://dnd5e.wikidot.com/bard:lore","document",function(res){
+        fs.writeFile('bard_lore.md', scrapeTags2(res.responseText), function (err) {
+            if (err) throw err;
+            console.log('Done!');
+        });
+    })
+    httpGetAsync("http://dnd5e.wikidot.com/sorcerer","document",function(res){
+        fs.writeFile('sorcerer.md', scrapeTags2(res.responseText), function (err) {
+            if (err) throw err;
+            console.log('Done!');
+        });
+    })
+    httpGetAsync("http://dnd5e.wikidot.com/sorcerer:wild-magic","document",function(res){
+        fs.writeFile('sorcerer_wm.md', scrapeTags2(res.responseText), function (err) {
+            if (err) throw err;
+            console.log('Done!');
+        });
+    })
+}
+createFile2();
+//prettyPrintFile2();
+//prettyPrintFile();
 //createFile();
 
 
@@ -162,6 +241,7 @@ app.get('/spells', (req, res) =>
       next(err)
     } else {
       console.log(__dirname +'/spells.json')
+      prettyPrintFile();
     }
   })
 )

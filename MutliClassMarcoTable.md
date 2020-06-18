@@ -1,0 +1,253 @@
+### Cantrip
+ - Acid Splash
+ - Blade Ward &#955
+ - Booming Blade &#955
+ - Chill Touch
+ - Control Flames &#955
+ - Create Bonfire &#955
+ - Dancing Lights
+ - Fire Bolt
+ - Friends
+ - Frostbite &#955
+ - Green-Flame Blade &#955
+ - Gust
+ - Infestation &#955
+ - Light
+ - Lightning Lure &#955
+ - Mage Hand
+ - Mending
+ - Message
+ - Minor Illusion
+ - Mold Earth &#955
+ - Poison Spray
+ - Prestidigitation
+ - Ray of Frost
+ - Shape Water &#955
+ - Shocking Grasp
+ - Sword Burst &#955
+ - Thunderclap &#955
+ - True Strike
+ - Vicious Mockery
+### Level 1
+ - Animal Friendship
+ - Bane
+ - Burning Hands
+ - Catapult &#955
+ - Chaos Bolt &#955
+ - Charm Person
+ - Chromatic Orb &#955
+ - Color Spray
+ - Comprehend Languages
+ - Cure Wounds
+ - Detect Magic
+ - Disguise Self
+ - Dissonant Whispers &#955
+ - Earth Tremor &#955
+ - Expeditious Retreat
+ - Faerie Fire
+ - False Life
+ - Feather Fall
+ - Fog Cloud
+ - Guiding Hand &#955
+ - Healing Word
+ - Heroism
+ - Ice Knife &#955
+ - Identify
+ - Illusory Script
+ - Jump
+ - Longstrider
+ - Mage Armor
+ - Magic Missile
+ - Ray of Sickness &#955
+ - Sense Emotion &#955
+ - Shield
+ - Silent Image
+ - Sleep
+ - Speak with Animals
+ - Sudden Awakening &#955
+ - Tasha&apos;s Hideous Laughter &#955
+ - Thunderwave
+ - Unearthly Chorus &#955
+ - Unseen Servant
+ - Witch Bolt &#955
+### Level 2
+ - Aganazzar&apos;s Scorcher &#955
+ - Alter Self
+ - Animal Messenger
+ - Blindness/Deafness
+ - Blur
+ - Calm Emotions
+ - Cloud of Daggers &#955
+ - Crown of Madness &#955
+ - Darkness
+ - Darkvision
+ - Detect Thoughts
+ - Dragon&apos;s Breath &#955
+ - Dust Devil &#955
+ - Earthbind &#955
+ - Enhance Ability
+ - Enlarge/Reduce
+ - Enthrall
+ - Gust of Wind
+ - Heat Metal
+ - Hold Person
+ - Invisibility
+ - Knock
+ - Lesser Restoration
+ - Levitate
+ - Locate Animals or Plants
+ - Locate Object
+ - Magic Mouth
+ - Maximillian&apos;s Earthen Grasp &#955
+ - Mirror Image
+ - Misty Step
+ - Phantasmal Force &#955
+ - Pyrotechnics &#955
+ - Scorching Ray
+ - See Invisibility
+ - Shatter
+ - Silence
+ - Skywrite &#955
+ - Snilloc&apos;s Snowball Storm &#955
+ - Spider Climb
+ - Suggestion
+ - Warding Wind &#955
+ - Web
+ - Zone of Truth
+### Level 3
+ - Bestow Curse
+ - Blink
+ - Clairvoyance
+ - Conjure Lesser Demons &#955
+ - Counterspell
+ - Daylight
+ - Dispel Magic
+ - Enemies Abound &#955
+ - Erupting Earth &#955
+ - Fear
+ - Feign Death &#955
+ - Fireball
+ - Flame Arrows &#955
+ - Fly
+ - Gaseous Form
+ - Glyph of Warding
+ - Haste
+ - Hypnotic Pattern
+ - Leomund&apos;s Tiny Hut &#955
+ - Lightning Bolt
+ - Major Image
+ - Melf&apos;s Minute Meteors &#955
+ - Nondetection
+ - Plant Growth
+ - Protection from Energy
+ - Sending
+ - Sleet Storm
+ - Slow
+ - Speak with Dead
+ - Speak with Plants
+ - Stinking Cloud
+ - Tongues
+ - Wall of Water &#955
+ - Water Breathing
+ - Water Walk
+### Level 4
+ - Banishment
+ - Blight
+ - Compulsion
+ - Confusion
+ - Conjure Barlgura &#955
+ - Conjure Shadow Demon &#955
+ - Dimension Door
+ - Dominate Beast
+ - Freedom of Movement
+ - Greater Invisibility
+ - Hallucinatory Terrain
+ - Ice Storm
+ - Locate Creature
+ - Polymorph
+ - Stoneskin
+ - Storm Sphere &#955
+ - Vitriolic Sphere &#955
+ - Wall of Fire
+ - Watery Sphere &#955
+### Level 5
+ - Animate Objects
+ - Awaken
+ - Cloudkill
+ - Cone of Cold
+ - Conjure Vrock &#955
+ - Control Winds &#955
+ - Creation
+ - Dominate Person
+ - Dream
+ - Geas
+ - Greater Restoration
+ - Hold Monster
+ - Immolation &#955
+ - Insect Plague
+ - Legend Lore
+ - Mass Cure Wounds
+ - Mislead
+ - Modify Memory
+ - Planar Binding
+ - Raise Dead
+ - Scrying
+ - Seeming
+ - Telekinesis
+ - Teleportation Circle
+ - Wall of Stone
+### Level 6
+ - Arcane Gate &#955
+ - Chain Lightning
+ - Circle of Death
+ - Disintegrate
+ - Eyebite
+ - Find the Path
+ - Globe of Invulnerability
+ - Guards and Wards
+ - Investiture of Flame &#955
+ - Investiture of Ice &#955
+ - Investiture of Stone &#955
+ - Investiture of Wind &#955
+ - Mass Suggestion
+ - Move Earth
+ - Otto&apos;s Irresistible Dance &#955
+ - Programmed Illusion
+ - Sunbeam
+ - True Seeing
+### Level 7
+ - Delayed Blast Fireball
+ - Etherealness
+ - Finger of Death
+ - Fire Storm
+ - Forcecage
+ - Mirage Arcane
+ - Mordenkainen&apos;s Magnificent Mansion &#955
+ - Mordenkainen&apos;s Sword &#955
+ - Plane Shift
+ - Prismatic Spray
+ - Project Image
+ - Regenerate
+ - Resurrection
+ - Reverse Gravity
+ - Symbol
+ - Teleport
+### Level 8
+ - Abi-Dalzim&apos;s Horrid Wilting &#955
+ - Dominate Monster
+ - Earthquake
+ - Feeblemind
+ - Glibness
+ - Incendiary Cloud
+ - Mind Blank
+ - Power Word: Stun &#955
+ - Sunburst
+### Level 9
+ - Foresight
+ - Gate
+ - Meteor Swarm
+ - Power Word: Heal &#955
+ - Power Word: Kill &#955
+ - Time Stop
+ - True Polymorph
+ - Wish

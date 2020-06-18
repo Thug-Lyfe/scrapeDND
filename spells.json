@@ -10,13 +10,13 @@
       "level": "Cantrip",
       "markdown": "_Abjuration cantrip_\n\n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V, S  \n**Duration:** 1 round\n\nYou extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Blade Ward"
+      "name": "Blade Ward &#955"
     },
     {
       "level": "Cantrip",
       "markdown": "_Evocation cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 5 feet  \n**Components:** V, M (a weapon)  \n**Duration:** 1 round\n\nAs part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails.\n\nOn a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 thunder damage, and the spell ends.\n\n**_At Higher Levels._** At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Booming Blade"
+      "name": "Booming Blade &#955"
     },
     {
       "level": "Cantrip",
@@ -28,13 +28,13 @@
       "level": "Cantrip",
       "markdown": "_Transmutation cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** S  \n**Duration:** Instantaneous or 1 hour\n\nYou choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways:\n\n• You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.\n\n• You instantaneously extinguish the flames within the cube.\n\n• You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.\n\n• You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.\n\nIf you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Control Flames"
+      "name": "Control Flames &#955"
     },
     {
       "level": "Cantrip",
       "markdown": "_Conjuration cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 minute\n\nYou create a bonfire on ground that you can see within range. Until the spells ends, the bonfire fills a 5-foot cube. Any creature in the bonfire’s space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it enters the bonfire’s space for the first time on a turn or ends its turn there.\n\n**_At Higher Levels._** The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Create Bonfire"
+      "name": "Create Bonfire &#955"
     },
     {
       "level": "Cantrip",
@@ -58,13 +58,13 @@
       "level": "Cantrip",
       "markdown": "_Evocation cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** Instantaneous\n\nYou cause numbing frost to form on one creature that you can see within range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.\n\n**_At Higher Levels._** The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Frostbite"
+      "name": "Frostbite &#955"
     },
     {
       "level": "Cantrip",
       "markdown": "_Evocation cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 5 feet  \n**Components:** V, M (a weapon)  \n**Duration:** Instantaneous\n\nAs part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.\n\n**_At Higher Levels._** At 5th level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Green-Flame Blade"
+      "name": "Green-Flame Blade &#955"
     },
     {
       "level": "Cantrip",
@@ -76,7 +76,7 @@
       "level": "Cantrip",
       "markdown": "_Conjuration cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** V, S, M (a living flea)  \n**Duration:** Instantaneous\n\nYou cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes 1d6 poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn’t provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.\n\n**_At Higher Levels._** The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Infestation"
+      "name": "Infestation &#955"
     },
     {
       "level": "Cantrip",
@@ -88,7 +88,7 @@
       "level": "Cantrip",
       "markdown": "_Evocation cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 15 feet  \n**Components:** V  \n**Duration:** Instantaneous\n\nYou create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.\n\n**_At Higher Levels._** This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Lightning Lure"
+      "name": "Lightning Lure &#955"
     },
     {
       "level": "Cantrip",
@@ -110,12 +110,6 @@
     },
     {
       "level": "Cantrip",
-      "markdown": "_Enchantment cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V  \n**Duration:** 1 round\n\nYou drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must make an Intelligence saving throw. Unless the saving throw is successful, the target takes 1d6 psychic damage, and the first time it makes a saving throw before the end of your next turn, it must roll a d4 and subtract the number rolled from the save.\n\n**_At Higher Levels._** This spell’s damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6).\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Mind Sliver (UA)"
-    },
-    {
-      "level": "Cantrip",
       "markdown": "_Illusion cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** S, M (a bit of fleece)  \n**Duration:** 1 minute\n\nYou create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else’s voice, a lion’s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nIf you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can’t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\n\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
       "name": "Minor Illusion"
@@ -124,7 +118,7 @@
       "level": "Cantrip",
       "markdown": "_Transmutation cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** S  \n**Duration:** Instantaneous or 1 hour\n\nYou choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:\n\n• If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn’t have enough force to cause damage.\n\n• You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.\n\n• If the dirt or stone you target is on the ground, you cause it to become difficult terrain. Alternatively, you can cause the ground to become normal terrain if it is already difficult terrain. This change lasts for 1 hour.\n\nIf you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Mold Earth"
+      "name": "Mold Earth &#955"
     },
     {
       "level": "Cantrip",
@@ -148,7 +142,7 @@
       "level": "Cantrip",
       "markdown": "_Transmutation cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** S  \n**Duration:** Instantaneous or 1 hour\n\nYou choose an area of water that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:\n\n• You instantaneously move or otherwise change the flow of the water as you direct, up to 5 feet in any direction. This movement doesn’t have enough force to cause damage.\n\n• You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.\n\n• You change the water’s color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.\n\n• You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour.\n\nIf you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Shape Water"
+      "name": "Shape Water &#955"
     },
     {
       "level": "Cantrip",
@@ -160,13 +154,13 @@
       "level": "Cantrip",
       "markdown": "_Conjuration cantrip_\n\n**Casting Time:** 1 action  \n**Range:** 5 feet  \n**Components:** V  \n**Duration:** Instantaneous\n\nYou create a momentary circle of spectral blades that sweep around you. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d6 force damage.\n\n**_At Higher Levels._** This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Sword Burst"
+      "name": "Sword Burst &#955"
     },
     {
       "level": "Cantrip",
       "markdown": "_Evocation cantrip_\n\n**Casting Time:** 1 action  \n**Range:** Self (5-foot radius)  \n**Components:** S  \n**Duration:** Instantaneous\n\nYou create a burst of thunderous sound, which can be heard 100 feet away. Each creature other than you within 5 feet of you must make a Constitution saving throw. On a failed save, the creature takes 1d6 thunder damage.\n\n**_At Higher Levels._** The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Thunderclap"
+      "name": "Thunderclap &#955"
     },
     {
       "level": "Cantrip",
@@ -182,12 +176,6 @@
     }
   ],
   "Level 1": [
-    {
-      "level": "Level 1",
-      "markdown": "_1st-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** Self (30-foot line)  \n**Components:** V, S, M (a bit of rotten food)  \n**Duration:** Concentration, up to 1 minute\n\nA stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell’s duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 3d4 acid damage at start of each of its turns.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Acid Stream (UA)"
-    },
     {
       "level": "Level 1",
       "markdown": "_1st-level enchantment (ritual)_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** V, S, M (a morsel of food)  \n**Duration:** 24 hours\n\nThis spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast’s Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the spell’s duration. If you or one of your companions harms the target, the spell ends.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger)",
@@ -210,13 +198,13 @@
       "level": "Level 1",
       "markdown": "_1st-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** 150 feet  \n**Components:** S  \n**Duration:** Instantaneous\n\nChoose one object weighing 1 to 5 pounds within range that isn’t being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. In either case, both the object and the creature or solid surface take 3d8 bludgeoning damage.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Catapult"
+      "name": "Catapult &#955"
     },
     {
       "level": "Level 1",
       "markdown": "_1st-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 120 feet  \n**Components:** V, S  \n**Duration:** Instantaneous\n\nYou hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attacks damage type, as shown below.\n\n| d8 | Damage Type |\n| --- | --- |\n| 1 | Acid |\n| 2 | Cold |\n| 3 | Fire |\n| 4 | Force |\n| 5 | Lightning |\n| 6 | Poison |\n| 7 | Psychic |\n| 8 | Thunder |\n\nIf you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.\n\nA creature can be targeted only once by each casting of this spell.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)",
       "classes": "Sorcerer",
-      "name": "Chaos Bolt"
+      "name": "Chaos Bolt &#955"
     },
     {
       "level": "Level 1",
@@ -228,7 +216,7 @@
       "level": "Level 1",
       "markdown": "_1st-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 90 feet  \n**Components:** V, S, M (a diamond worth at least 50 gp)  \n**Duration:** Instantaneous\n\nYou hurl a 4-inch-diameter sphere of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Chromatic Orb"
+      "name": "Chromatic Orb &#955"
     },
     {
       "level": "Level 1",
@@ -264,13 +252,13 @@
       "level": "Level 1",
       "markdown": "_1st-level enchantment_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V  \n**Duration:** Instantaneous\n\nYou whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn’t move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn’t have to move away. A deafened creature automatically succeeds on the save.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard)",
       "classes": "Bard",
-      "name": "Dissonant Whispers"
+      "name": "Dissonant Whispers &#955"
     },
     {
       "level": "Level 1",
       "markdown": "_1st-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** Self (10-foot radius)  \n**Components:** V, S  \n**Duration:** Instantaneous\n\nYou cause a tremor in the ground in a 10-foot radius. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Earth Tremor"
+      "name": "Earth Tremor &#955"
     },
     {
       "level": "Level 1",
@@ -306,7 +294,7 @@
       "level": "Level 1",
       "markdown": "_1st-level divination (ritual)_\n\n**Casting Time:** 1 minute  \n**Range:** 5 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 8 hours\n\nYou create a Tiny incorporeal hand of shimmering light in an unoccupied space you can see within range. The hand exists for the duration, but it disappears if you teleport or you travel to a different plane of existence.\n\nWhen the hand appears, you name one major landmark, such as a city, mountain, castle, or battlefield on the same plane of existence as you. Someone in history must have visited the site and mapped it. If the landmark appears on no map in existence, the spell fails. Otherwise, whenever you move toward the hand, it moves away from you at the same speed you moved, and it moves in the direction of the landmark, always remaining 5 feet away from you.\n\nIf you don’t move toward the hand, it remains in place until you do and beckons for you to follow once every 1d4 minutes.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Wizard](http://dnd5e.wikidot.com/spells:wizard)\n\n_HBThis spell is massively overpowered. For example, a 1st-level character could use this spell to effortlessly locate the lost city of Atlantis. I would recommend not allowing it._",
       "classes": "Bard",
-      "name": "Guiding Hand"
+      "name": "Guiding Hand &#955"
     },
     {
       "level": "Level 1",
@@ -324,13 +312,7 @@
       "level": "Level 1",
       "markdown": "_1st-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** S, M (a drop of water or piece of ice)  \n**Duration:** Instantaneous\n\nYou create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of the point where the ice exploded must succeed on a Dexterity saving throw or take 2d6 cold damage.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Ice Knife"
-    },
-    {
-      "level": "Level 1",
-      "markdown": "_1st-level enchantment_  \n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 minute\n\nYou unleash a torrent of conflicting desires in the mind of one creature you can see within range, impairing its ability to make decisions. The target must succeed on a Wisdom saving throw or be incapacitated. At the end of each of its turns, it takes 1d12 psychic damage, and it can then make another Wisdom saving throw. On a success, the spell ends on the target.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Id Insinuation (UA)"
+      "name": "Ice Knife &#955"
     },
     {
       "level": "Level 1",
@@ -372,13 +354,13 @@
       "level": "Level 1",
       "markdown": "_1st-level necromancy_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** Instantaneous\n\nA ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Ray of Sickness"
+      "name": "Ray of Sickness &#955"
     },
     {
       "level": "Level 1",
       "markdown": "_1st-level divination_\n\n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 minute\n\nYou attune your senses to pick up the emotions of others for the duration. When you cast the spell, and as your action on each turn until the spell ends, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
-      "name": "Sense Emotion"
+      "name": "Sense Emotion &#955"
     },
     {
       "level": "Level 1",
@@ -408,13 +390,13 @@
       "level": "Level 1",
       "markdown": "_1st-level enchantment_\n\n**Casting Time:** 1 bonus action  \n**Range:** 10 feet  \n**Components:** V  \n**Duration:** Instantaneous\n\nEach sleeping creature you choose within range awakens, and then each prone creature within range can stand up without expending any movement.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Sudden Awakening"
+      "name": "Sudden Awakening &#955"
     },
     {
       "level": "Level 1",
       "markdown": "_1st-level enchantment_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** V, S, M (tiny tarts and a feather that is waved in the air)  \n**Duration:** Concentration, up to 1 minute\n\nA creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn’t affected.\n\nAt the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it’s triggered by damage. On a success, the spell ends.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
-      "name": "Tasha&apos;s Hideous Laughter"
+      "name": "Tasha&apos;s Hideous Laughter &#955"
     },
     {
       "level": "Level 1",
@@ -426,7 +408,7 @@
       "level": "Level 1",
       "markdown": "_1st-level illusion_\n\n**Casting Time:** 1 action  \n**Range:** Self (30-foot radius)  \n**Components:** V  \n**Duration:** Concentration, up to 10 minutes\n\nMusic of a style you choose fills the air around you in a 30-foot radius. The music spreads around corners and can be heard from up to 100 feet away. The music moves with you, centered on you for the duration.\n\nUntil the spell ends, you make Charisma (Performance) checks with advantage. In addition, you can use a bonus action on each of your turns to beguile one creature you choose within 30 feet of you that can see you and hear the music. The creature must make a Charisma saving throw. If you or your companions are attacking it, the creature automatically succeeds on the saving throw. On a failure, the creature becomes friendly to you for as long as it can hear the music and for 1 hour thereafter. You make Charisma (Deception) checks and Charisma (Persuasion) checks against creatures made friendly by this spell with advantage.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard)",
       "classes": "Bard",
-      "name": "Unearthly Chorus"
+      "name": "Unearthly Chorus &#955"
     },
     {
       "level": "Level 1",
@@ -438,7 +420,7 @@
       "level": "Level 1",
       "markdown": "_1st-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** V, S, M (a twig from a tree that has been struck by lightning)  \n**Duration:** Concentration, up to 1 minute\n\nA beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 1d12 lightning damage, and on each of your turns for the duration, you can use your action to deal 1d12 lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell’s range or if it has total cover from you.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d12 for each slot level above 1st.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Witch Bolt"
+      "name": "Witch Bolt &#955"
     }
   ],
   "Level 2": [
@@ -446,7 +428,7 @@
       "level": "Level 2",
       "markdown": "_2nd-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** V, S, M (a red dragon’s scale)  \n**Duration:** Instantaneous\n\nA line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Aganazzar&apos;s Scorcher"
+      "name": "Aganazzar&apos;s Scorcher &#955"
     },
     {
       "level": "Level 2",
@@ -482,13 +464,13 @@
       "level": "Level 2",
       "markdown": "_2nd-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S, M (a sliver of glass)  \n**Duration:** Concentration, up to 1 minute\n\nYou fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the spell’s area for the first time on a turn or starts its turn there.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Cloud of Daggers"
+      "name": "Cloud of Daggers &#955"
     },
     {
       "level": "Level 2",
       "markdown": "_2nd-level enchantment_\n\n**Casting Time:** 1 action  \n**Range:** 120 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 minute\n\nOne humanoid of your choice that you can see within range must succeed on a Wisdom saving throw or become charmed by you for the duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.\n\nThe charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if none are within its reach.\n\nOn your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a Wisdom saving throw at the end of each of its turns. On a success, the spell ends.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Crown of Madness"
+      "name": "Crown of Madness &#955"
     },
     {
       "level": "Level 2",
@@ -512,19 +494,19 @@
       "level": "Level 2",
       "markdown": "_2nd-level transmutation_\n\n**Casting Time:** 1 bonus action  \n**Range:** Touch  \n**Components:** V, S, M (a hot pepper)  \n**Duration:** Concentration, up to 1 minute\n\nYou touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.\n\n**_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Dragon&apos;s Breath"
+      "name": "Dragon&apos;s Breath &#955"
     },
     {
       "level": "Level 2",
       "markdown": "_2nd-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S, M (a pinch of dust)  \n**Duration:** Concentration, up to 1 minute\n\nChoose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell’s duration.\n\nAny creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes 1d8 bludgeoning damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn’t pushed.\n\nAs a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or small gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Dust Devil"
+      "name": "Dust Devil &#955"
     },
     {
       "level": "Level 2",
       "markdown": "_2nd-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** 300 feet  \n**Components:** V  \n**Duration:** Concentration, up to 1 minute\n\nChoose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell’s duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Earthbind"
+      "name": "Earthbind &#955"
     },
     {
       "level": "Level 2",
@@ -608,19 +590,7 @@
       "level": "Level 2",
       "markdown": "_2nd-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** V, S, M (a miniature hand sculpted from clay)  \n**Duration:** Concentration, up to 1 minute\n\nYou choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell’s duration.\n\nAs an action, you can cause the hand to crush the restrained target, who must make a Strength saving throw. It takes 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.\n\nTo break out, the restrained target can make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.\n\nAs an action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a restrained target if you do either.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Maximillian&apos;s Earthen Grasp"
-    },
-    {
-      "level": "Level 2",
-      "markdown": "_2nd-level abjuration_  \n**Casting Time:** 1 reaction, which you take when you are forced to make an Intelligence, a Wisdom, or a Charisma saving throw  \n**Range:** Self  \n**Components:** V  \n**Duration:** 1 round\n\nYou protect your mind with a wall of looping, repetitive thought. Until the start of your next turn, you have advantage on Intelligence, Wisdom, and Charisma saving throws, and you have resistance to psychic damage.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Mental Barrier (UA)"
-    },
-    {
-      "level": "Level 2",
-      "markdown": "_2nd-level enchantment_  \n**Casting Time:** 1 bonus action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** 1 round\n\nYou thrust a lance of psychic disruption into the mind of one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it can’t take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell’s other effects.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Mind Thrust (UA)"
+      "name": "Maximillian&apos;s Earthen Grasp &#955"
     },
     {
       "level": "Level 2",
@@ -638,13 +608,13 @@
       "level": "Level 2",
       "markdown": "_2nd-level illusion_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S, M (a bit of fleece)  \n**Duration:** Concentration, up to 1 minute\n\nYou craft an illusion that takes root in the mind of a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other visible phenomenon of your choice that is no larger than a 10-foot cube and that is perceivable only to the target for the duration. This spell has no effect on undead or constructs.\n\nThe phantasm includes sound, temperature, and other stimuli, also evident only to the creature.\n\nThe target can use its action to examine the phantasm with an Intelligence (Investigation) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.\n\nWhile a target is affected by the spell, the target treats the phantasm as if it were real. The target rationalizes any illogical outcomes from interacting with the phantasm. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall—it was pushed, it slipped, or a strong wind might have knocked it off.\n\nAn affected target is so convinced of the phantasm’s reality that it can even take damage from the illusion. A phantasm created to appear as a creature can attack the target. Similarly, a phantasm created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the phantasm can deal 1d6 psychic damage to the target if it is in the phantasm’s area or within 5 feet of the phantasm, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Phantasmal Force"
+      "name": "Phantasmal Force &#955"
     },
     {
       "level": "Level 2",
       "markdown": "_2nd-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** Instantaneous\n\nChoose an area of flame that you can see and that can fit within a 5-foot cube within range. You can extinguish the fire in that area, and you create either fireworks or smoke. Fireworks. The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become blinded until the end of your next turn. Smoke. Thick black smoke spreads out from the target in a 20-foot radius, moving around corners. The area of the smoke is heavily obscured. The smoke persists for 1 minute or until a strong wind disperses it.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Pyrotechnics"
+      "name": "Pyrotechnics &#955"
     },
     {
       "level": "Level 2",
@@ -674,13 +644,13 @@
       "level": "Level 2",
       "markdown": "_2nd-level transmutation (ritual)_\n\n**Casting Time:** 1 action  \n**Range:** Sight  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 day\n\nYou cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell’s duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
-      "name": "Skywrite"
+      "name": "Skywrite &#955"
     },
     {
       "level": "Level 2",
       "markdown": "_2nd-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 90 feet  \n**Components:** V, S, M (a piece of ice or a small white rock chip)  \n**Duration:** Instantaneous\n\nA flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 cold damage on a failed save, or half as much damage on a successful one.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Snilloc&apos;s Snowball Storm"
+      "name": "Snilloc&apos;s Snowball Storm &#955"
     },
     {
       "level": "Level 2",
@@ -696,15 +666,9 @@
     },
     {
       "level": "Level 2",
-      "markdown": "_2nd-level abjuration_  \n**Casting Time:** 1 action  \n**Range:** Touch  \n**Components:** V, S  \n**Duration:** 8 hours\n\nYou weave a clouding veil over the mind of one creature you touch. For the duration, the target’s mind can’t be read or detected, creatures can’t telepathically communicate with the target unless the target allows it, and the target has advantage on saving throws against any effect that would determine whether it is telling the truth.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Thought Shield (UA)"
-    },
-    {
-      "level": "Level 2",
       "markdown": "_2nd-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V  \n**Duration:** Concentration, up to 10 minutes\n\nA strong wind (20 miles per hour) blows around you in a 10-foot radius and moves with you, remaining centered on you. The wind lasts for the spell’s duration.\n\nThe wind has the following effects:\n\n• It deafens you and other creatures in its area.\n\n• It extinguishes unprotected flames in its area that are torch-sized or smaller.\n\n• The area is difficult terrain for creatures other than you.\n\n• The attack rolls of ranged weapon attacks have disadvantage if they pass in or out of the wind.\n\n• It hedges out vapor, gas, and fog that can be dispersed by strong wind.\n\n**_Spell Lists._** [bard Bard](http://dnd5e.wikidot.com/spells:), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)",
       "classes": "Bard, Sorcerer",
-      "name": "Warding Wind"
+      "name": "Warding Wind &#955"
     },
     {
       "level": "Level 2",
@@ -742,7 +706,7 @@
       "level": "Level 3",
       "markdown": "_3rd-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S, M (a vial of blood from an intelligent humanoid killed within the past 24 hours)  \n**Duration:** Concentration, up to 1 hour\n\nYou summon up to a total of eight manes or dretches that appear in unoccupied spaces you can see within range. A manes or dretch disappears when it drops to 0 hit points or when the spell ends.\n\nThe demons are hostile to all creatures. Roll initiative for the summoned demons as a group, which has its own turns. The demons attack the nearest non-demons to the best of their ability.\n\nAs part of casting the spell, you can scribe a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. The summoned demons cannot cross the circle or target anyone in it while the spell lasts. Using the material component in this manner consumes it.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 6th or 7th level, you summon sixteen demons. If you cast it using a spell slot of 8th or 9th level, you summon thirty-two demons.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Conjure Lesser Demons"
+      "name": "Conjure Lesser Demons &#955"
     },
     {
       "level": "Level 3",
@@ -766,13 +730,13 @@
       "level": "Level 3",
       "markdown": "_3rd-level enchantment_\n\n**Casting Time:** 1 action  \n**Range:** 120 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 minute\n\nYou reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.\n\nWhenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it’s using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Enemies Abound"
+      "name": "Enemies Abound &#955"
     },
     {
       "level": "Level 3",
       "markdown": "_3rd-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** 120 feet  \n**Components:** V, S, M (a piece of obsidian)  \n**Duration:** Instantaneous\n\nChoose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared away. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d12 for each slot level above 2nd.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Erupting Earth"
+      "name": "Erupting Earth &#955"
     },
     {
       "level": "Level 3",
@@ -784,7 +748,7 @@
       "level": "Level 3",
       "markdown": "_3rd-level necromancy (ritual)_\n\n**Casting Time:** 1 action  \n**Range:** Touch  \n**Components:** V, S, M (a pinch of graveyard dirt)  \n**Duration:** 1 hour\n\nYou touch a willing creature and put it into a cataleptic state that is indistinguishable from death.\n\nFor the spell’s duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target’s status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell’s effect, the disease and poison have no effect until the spell ends.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
-      "name": "Feign Death"
+      "name": "Feign Death &#955"
     },
     {
       "level": "Level 3",
@@ -796,7 +760,7 @@
       "level": "Level 3",
       "markdown": "_3rd-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** Touch  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 hour\n\nYou touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell’s magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer) , [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Flame Arrows"
+      "name": "Flame Arrows &#955"
     },
     {
       "level": "Level 3",
@@ -832,7 +796,7 @@
       "level": "Level 3",
       "markdown": "_3rd-level evocation (ritual)_\n\n**Casting Time:** 1 minute  \n**Range:** Self (10-foot-radius hemisphere)  \n**Components:** V, S, M (a small crystal bead)  \n**Duration:** 8 hours\n\nA 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.\n\nNine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can’t extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.\n\nUntil the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
-      "name": "Leomund&apos;s Tiny Hut"
+      "name": "Leomund&apos;s Tiny Hut &#955"
     },
     {
       "level": "Level 3",
@@ -850,7 +814,7 @@
       "level": "Level 3",
       "markdown": "_3rd-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V, S, M (niter, sulfur, and pine tar formed into a bead)  \n**Duration:** Concentration, up to 10 minutes\n\nYou create six tiny meteors in your space. They float in the air and orbit you for the spell’s duration. When you cast the spell — and as a bonus action on each of your turns thereafter — you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Melf&apos;s Minute Meteors"
+      "name": "Melf&apos;s Minute Meteors &#955"
     },
     {
       "level": "Level 3",
@@ -869,12 +833,6 @@
       "markdown": "_3rd-level abjuration_\n\n**Casting Time:** 1 action  \n**Range:** Touch  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 hour\n\nFor the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.\n\n**_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
       "name": "Protection from Energy"
-    },
-    {
-      "level": "Level 3",
-      "markdown": "_3rd-level evocation_  \n**Casting Time:** 1 action  \n**Range:** Self (30-foot cone)  \n**Components:** V  \n**Duration:** Instantaneous\n\nYou unleash a destructive wave of mental power in a 30-foot cone. Each creature in the area must make a Dexterity saving throw. On a failed save, a target takes 5d8 force damage, is pushed 20 feet directly away from you, and is knocked prone. On a successful save, a target takes half as much damage and isn’t pushed or knocked prone.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Psionic Blast (UA)"
     },
     {
       "level": "Level 3",
@@ -914,18 +872,6 @@
     },
     {
       "level": "Level 3",
-      "markdown": "_3rd-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 90 feet  \n**Components:** V, S, M (a gilded flower worth at least 300 gp)  \n**Duration:** Concentration, up to 1 hour\n\nYou call forth a spirit from the Feywild. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block below. When you cast the spell, choose a mood: Deceitful, Furious, or Joyful. The creature physically resembles a satyr, a dryad, or an elf (your choice) marked by the chosen mood, which also determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is friendly to you and your companions for the spell’s duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don’t issue any, it defends itself but otherwise takes no action.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell’s level in its stat block.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)\n\n| Fey Spirit |\n| --- |\n| _Small fey, chaotic good_ |\n| **Armor Class:** 11 + the level of the spell (natural armor) |\n| **Hit Points:** equal the fey’s Constitution modifier + your spellcasting ability modifier + ten times the spell’s level |\n| **Speed:** 40 ft. |\n| STR | DEX | CON | INT | WIS | CHA |\n| 13 (+1) | 16 (+3) | 14 (+2) | 14 (+2) | 11 (+0) | 16 (+3) |\n| **Condition:** Immunities charmed |\n| **Senses:** darkvision 60 ft., passive Perception 10 |\n| **Languages:** Sylvan, understands the languages you speak |\n| **_Fey Step._** As a bonus action, the fey can magically teleport up to 30 feet to an unoccupied space it can see. |\n| **_Darkening Step (Deceitful Only)._** Immediately after using its Fey Step, the fey can fill a 5-foot cube within 5 feet of it with magical darkness, which remains until the end of the fey’s next turn. |\n| **_Ecstatic Step (Joyful Only)._** Immediately after using its Fey Step, the fey can choose a creature it can see within 10 feet of it and force it to succeed on a Wisdom saving throw against your spell save DC or be charmed by the fey for 1 minute. The charm ends if the fey or any of its companions deals any damage to the target. |\n| **_Impassioned Step (Furious Only)._** Immediately after using its Fey Step, the fey has advantage on the next attack roll it makes before the end of its turn. |\n| Actions |\n| **_Multiattack._** The fey makes a number of attacks equal to half this spell’s level (rounded down). |\n| **_Shortsword._** Melee Weapon Attack: +3 + the spell’s level to hit, reach 5 ft., one target. Hit: 1d6 + 3 + the spell’s level piercing damage + 1d6 force damage. |",
-      "classes": "Bard, Sorcerer",
-      "name": "Summon Fey Spirit (UA)"
-    },
-    {
-      "level": "Level 3",
-      "markdown": "_3rd-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 90 feet  \n**Components:** V, S, M (tears inside a crystal vial worth at least 300 gp)  \n**Duration:** Concentration, up to 1 hour\n\nYou call forth a shadowy spirit from the Shadowfell. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Shadow Spirit stat block below. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature physically resembles a misshapen humanoid marked by the chosen emotion, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is friendly to you and your companions for the spell’s duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don’t issue any, it defends itself but otherwise takes no action.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the creature assumes the higher level for that casting wherever it uses the spell’s level in its stat block.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)\n\n| Shadow Spirit |\n| --- |\n| _Medium monstrosity, neutral evil_ |\n| **Armor Class:** 11 + the level of the spell (natural armor) |\n| **Hit Points:** equal the shadow’s Constitution modifier + your spellcasting ability modifier + ten times the spell’s level |\n| **Speed:** 40 ft. |\n| STR | DEX | CON | INT | WIS | CHA |\n| 13 (+1) | 16 (+3) | 15 (+2) | 4 (−4) | 10 (+0) | 16 (+3) |\n| **Damage Resistances:** necrotic |\n| **Condition Immunities:** frightened |\n| **Senses:** darkvision 120 ft., passive Perception 10 |\n| **Languages:** Common, understands the languages you speak |\n| **_Bloodthirsty Frenzy (Fury Only)._** The spirit has advantage on attack rolls against frightened creatures. |\n| **_Shadow Stealth (Fear Only)._** While in dim light or darkness, the spirit can take the Hide action as a bonus action. |\n| **_Weight of Ages (Despair Only)._** Any beast or humanoid, other than you, that starts its turn within 5 feet of the spirit has its speed reduced by 20 feet until the start of that beast or humanoid’s next turn. |\n| Actions |\n| **_Multiattack._** The spirit makes a number of attacks equal to half this spell’s level (rounded down). |\n| **_Chilling Rend._** Melee Weapon Attack: +3 + the spell’s level to hit, reach 5 ft., one target. Hit: 2d8 + 3 + the spell’s level cold damage. |\n| **_Dreadful Scream (1/Day)._** The spirit screams. Each creature within 30 feet of it must succeed on a Wisdom saving throw against your spell save DC or be frightened of the spirit for 1 minute. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. |",
-      "classes": "Sorcerer",
-      "name": "Summon Shadow Spirit (UA)"
-    },
-    {
-      "level": "Level 3",
       "markdown": "_3rd-level divination_\n\n**Casting Time:** 1 action  \n**Range:** Touch  \n**Components:** V, M (a small clay model of a ziggurat)  \n**Duration:** 1 hour\n\nThis spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
       "name": "Tongues"
@@ -934,7 +880,7 @@
       "level": "Level 3",
       "markdown": "_3rd-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S, M (a drop of water)  \n**Duration:** Concentration, up to 10 minutes\n\nYou conjure up a wall of water on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall’s space is difficult terrain.\n\nAny ranged weapon attack that enters the wall’s space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall’s water doesn’t fill it.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Wall of Water"
+      "name": "Wall of Water &#955"
     },
     {
       "level": "Level 3",
@@ -978,13 +924,13 @@
       "level": "Level 4",
       "markdown": "_4th-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** Up to 10 minutes\n\nYou summon a barlgura that appears in an unoccupied space you can see within range. The barlgura disappears when it drops to 0 hit points or when the spell ends.\n\nThe barlgura is hostile to all non-demons. Roll initiative for the barlgura, which has its own turns. At the start of its turn, it moves toward and attacks the nearest non-demon it can perceive. If two or more creatures are equally near, it picks one at random. If it cannot see any potential enemies, the barlgura moves in a random direction in search of foes.\n\nAs part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned barlgura cannot cross the circle or target anyone in it while the spell lasts.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Conjure Barlgura"
+      "name": "Conjure Barlgura &#955"
     },
     {
       "level": "Level 4",
       "markdown": "_4th-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S, M (a vial of blood from an intelligent humanoid killed within the past 24 hours)  \n**Duration:** Concentration, up to 1 hour\n\nYou summon a shadow demon that appears in an unoccupied space you can see within range. The shadow demon disappears when it drops to 0 hit points or when the spell ends.\n\nRoll initiative for the shadow demon, which has its own turns. You can issue orders to the shadow demon, and it obeys you as long as it can attack a creature on each of its turns and does not start its turn in an area of bright light. If either of these conditions is not met, the shadow demon immediately makes a Charisma check contested by your Charisma check. If you fail the check, the spell no longer requires concentration and the demon is no longer under your control. The demon automatically succeeds on the check if it is more than 100 feet away from you.\n\nAs part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned shadow demon cannot cross the circle or target anyone in it while the spell lasts.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Conjure Shadow Demon"
+      "name": "Conjure Shadow Demon &#955"
     },
     {
       "level": "Level 4",
@@ -997,12 +943,6 @@
       "markdown": "_4th-level enchantment_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 minute\n\nYou attempt to beguile a beast that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.\n\nWhile the beast is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as “Attack that creature,” “Run over there,” or “Fetch that object.” If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability.\n\nYou can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.\n\nEach time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.\n\n**_At Higher Levels._** When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)",
       "classes": "Sorcerer",
       "name": "Dominate Beast"
-    },
-    {
-      "level": "Level 4",
-      "markdown": "_4th-level enchantment_  \n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** V  \n**Duration:** Concentration, up to 1 minute\n\nYou lash the mind of one creature you can see within range, filling it with despair. The target must succeed on an Intelligence saving throw or suffer disadvantage on attack rolls, ability checks, and saving throws, and it can’t cast spells. At the end of each of its turns, the target can make another Intelligence saving throw. On a success, the spell ends on the target.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Ego Whip (UA)"
     },
     {
       "level": "Level 4",
@@ -1050,25 +990,13 @@
       "level": "Level 4",
       "markdown": "_4th-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 150 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 minute\n\nA 20-foot-radius sphere of whirling air springs into existence centered on a point you choose within range. The sphere remains for the spell’s duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take 2d6 bludgeoning damage. The sphere’s space is difficult terrain.\n\nUntil the spell ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes 4d6 lightning damage.\n\nCreatures within 30 feet of the sphere have disadvantage on Wisdom (Perception) checks made to listen.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the damage increases for each of its effects by 1d6 for each slot level above 4th.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Storm Sphere"
-    },
-    {
-      "level": "Level 4",
-      "markdown": "_4th-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 90 feet  \n**Components:** V, S, M (a pickled tentacle and an eyeball in a crystal vial worth at least 400 gp)  \n**Duration:** Concentration, up to 1 hour\n\nYou call forth a spirit from the Far Realm or another alien realm of madness. The spirit manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Aberrant Spirit stat block below. When you cast the spell, choose Beholderkin, Slaadi, or Star Spawn. The creature physically resembles your choice, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is friendly to you and your companions for the spell’s duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don’t issue any, it defends itself but otherwise takes no action.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell’s level in its stat block.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)\n\n| Aberrant Spirit |\n| --- |\n| _Medium aberration, neutral evil_ |\n| **Armor Class:** 11 + the level of the spell (natural armor) |\n| **Hit Points:** equal the aberration’s Constitution modifier + your spellcasting ability modifier + ten times the spell’s level |\n| **Speed:** 30 ft., fly 30 ft. (Beholderkin only; hover) |\n| STR | DEX | CON | INT | WIS | CHA |\n| 16 (+3) | 10 (+0) | 15 (+2) | 16 (+3) | 10 (+0) | 6 (−2) |\n| **Damage Immunities:** psychic |\n| **Senses:** darkvision 60 ft., passive Perception 10 |\n| **Languages:** Deep Speech, understands the languages you speak |\n| **_Regeneration (Slaadi Only)._** The aberration regains 10 hit points at the start of its turn if it has at least 1 hit point. |\n| **_Whispering Aura (Star Spawn Only)._** At the start of each of the aberration’s turns, each creature within 5 feet of it must succeed on a Wisdom saving throw against your spell save DC or take 3d6 psychic damage, provided that the aberration isn’t incapacitated. |\n| Actions |\n| **_Multiattack._** The aberration makes a number of attacks equal to half this spell’s level (rounded down). |\n| **_Eye Ray (Beholderkin Only)._** Ranged Spell Attack: +3 + the spell’s level to hit, range 30 ft., one creature. Hit: 1d8 + 3 + the spell’s level psychic damage. |\n| **_Claws (Slaadi Only)._** Melee Weapon Attack: +3 + the spell’s level to hit, reach 5 ft., one target. Hit: 1d10 + 3 + the spell’s level slashing damage. If the target is a creature, it can’t regain hit points until the start of the aberration’s next turn. |\n| **_Psychic Slam (Star Spawn Only)._** Melee Spell Attack: +3 + the spell’s level to hit, reach 5 ft., one creature. Hit: 1d6 + 3 + the spell’s level psychic damage |",
-      "classes": "Sorcerer",
-      "name": "Summon Abberant Spirit (UA)"
-    },
-    {
-      "level": "Level 4",
-      "markdown": "_4th-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 90 feet  \n**Components:** V, S, M (air, a pebble, ash, and water inside a crystal vial worth at least 400 gp)  \n**Duration:** Concentration, up to 1 hour\n\nYou call forth a spirit from the Elemental Planes. The spirit manifests physically in an unoccupied  \nspace that you can see within range. This corporeal form uses the Elemental Spirit stat block below. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature physically resembles a vaguely humanoid form wreathed in the chosen element, which also determines some of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.\n\nThe creature is friendly to you and your companions for the spell’s duration. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don’t issue any, it defends itself but otherwise takes no action.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the creature assumes the higher level for that casting wherever it uses the spell’s level in its stat block.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)\n\n| Elemental Spirit |\n| --- |\n| _Medium elemental, neutral_ |\n| **Armor Class:** 11 + the level of the spell (natural armor) |\n| **Hit Points:** equal the elemental’s Constitution modifier + your spellcasting ability modifier + ten times the spell’s level |\n| **Speed:** 40 ft., fly 40 ft. (Air only, hover), burrow 40 ft. (Earth only), swim 40 ft. (Water only) |\n| STR | DEX | CON | INT | WIS | CHA |\n| 18 (+4) | 15 (+2) | 17 (+3) | 4 (−4) | 10 (+0) | 16 (+3) |\n| **Damage Resistances:** lightning, thunder (Air only); piercing, slashing (Earth only); acid (Water only) |\n| **Damage Immunities:** poison; fire (Fire only) |\n| **Condition Immunities:** exhaustion, paralyzed, petrified, poisoned, unconscious |\n| **Senses:** darkvision 60 ft., passive Perception 10 |\n| **Languages:** Primordial, understands the languages you speak |\n| **_Amorphous Form (Air, Fire, and Water Only)._** The elemental can move through a space as narrow as 1 inch wide without squeezing. |\n| Actions |\n| **_Multiattack._** The elemental makes a number of attacks equal to half this spell’s level (rounded down). |\n| **_Slam._** Melee Weapon Attack: +4 + the spell’s level to hit, reach 5 ft., one target. Hit: 1d10 + 4 + the spell’s level bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only). |",
-      "classes": "Sorcerer",
-      "name": "Summon Elemental Spirit (UA)"
+      "name": "Storm Sphere &#955"
     },
     {
       "level": "Level 4",
       "markdown": "_4th-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 150 feet  \n**Components:** V, S, M (a drop of giant slug bile)  \n**Duration:** Instantaneous\n\nYou point at a place within range, and a glowing 1-foot ball of emerald acid streaks there and explodes in a 20-foot radius. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 10d4 acid damage and 5d4 acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Vitriolic Sphere"
+      "name": "Vitriolic Sphere &#955"
     },
     {
       "level": "Level 4",
@@ -1080,7 +1008,7 @@
       "level": "Level 4",
       "markdown": "_4th-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 90 feet  \n**Components:** V, S, M (a droplet of water)  \n**Duration:** Concentration, up to 1 minute\n\nYou conjure up a sphere of water with a 10-foot radius on a point you can see within range. The sphere can hover in the air, but no more than 10 feet off the ground. The sphere remains for the spell’s duration.\n\nAny creature in the sphere’s space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space outside it. A Huge or larger creature succeeds on the saving throw automatically. On a failed save, a creature is restrained by the sphere and is engulfed by the water. At the end of each of its turns, a restrained target can repeat the saving throw.\n\nThe sphere can restrain a maximum of four Medium or smaller creatures or one Large creature. If the sphere restrains a creature in excess of these numbers, a random creature that was already restrained by the sphere falls out of it and lands prone in a space within 5 feet of it.\n\nAs an action, you can move the sphere up to 30 feet in a straight line. If it moves over a pit, cliff, or other drop, it safely descends until it is hovering 10 feet over ground. Any creature restrained by the sphere moves with it. You can ram the sphere into creatures, forcing them to make the saving throw, but no more than once per turn.\n\nWhen the spell ends, the sphere falls to the ground and extinguishes all normal flames within 30 feet of it. Any creature restrained by the sphere is knocked prone in the space where it falls.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Watery Sphere"
+      "name": "Watery Sphere &#955"
     }
   ],
   "Level 5": [
@@ -1112,13 +1040,13 @@
       "level": "Level 5",
       "markdown": "_5th-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S, M (a gem worth at least 100 gp, which the spell consumes)  \n**Duration:** Concentration, up to 1 hour\n\nYou summon a vrock that appears in an unoccupied space you can see within range. The vrock disappears when it drops to 0 hit points or when the spell ends.\n\nThe vrock’s attitude depends on the value of the gem used as a material component for this spell. Roll initiative for the vrock, which has its own turns. At the start of the vrock’s turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the gem’s value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the vrock and have it obey you as long as you succeed on the Charisma check.\n\nIf the check fails, the spell no longer requires concentration and the vrock is no longer under your control. The vrock takes no actions on its next turn and uses its telepathy to tell any creature it can see that it will fight in exchange for treasure. The creature that gives the vrock the most expensive gem can command it for the next 1d6 rounds. At the end of that time, it offers the bargain again. If no one offers the vrock treasure before its next turn begins, it attacks the nearest creatures for 1d6 rounds before returning to the Abyss.\n\nAs part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned vrock cannot cross the circle or target anyone in it while the spell lasts.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Conjure Vrock"
+      "name": "Conjure Vrock &#955"
     },
     {
       "level": "Level 5",
       "markdown": "_5th-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** 300 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 hour\n\nYou take control of the air in a 100-foot cube that you can see within range. Choose one of the following effects when you cast the spell. The effect lasts for the spell’s duration, unless you use your action on a later turn to switch to a different effect. You can also use your action to temporarily halt the effect or to restart one you’ve halted.\n\n• **Gusts.** A wind picks up within the cube, continually blowing in a horizontal direction that you choose. You choose the intensity of the wind: calm, moderate, or strong. If the wind is moderate or strong, ranged weapon attacks that pass through it or that are made against targets within the cube have disadvantage on their attack rolls. If the wind is strong, any creature moving against the wind must spend 1 extra foot of movement for each foot moved.\n\n• **Downdraft.** You cause a sustained blast of strong wind to blow downward from the top of the cube. Ranged weapon attacks that pass through the cube or that are made against targets within it have disadvantage on their attack rolls. A creature must make a Strength saving throw if it flies into the cube for the first time on a turn or starts its turn there flying. On a failed save, the creature is knocked prone.\n\n• **Updraft.** You cause a sustained updraft within the cube, rising upward from the cube’s bottom edge. Creatures that end a fall within the cube take only half damage from the fall. When a creature in the cube makes a vertical jump, the creature can jump up to 10 feet higher than normal.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Control Winds"
+      "name": "Control Winds &#955"
     },
     {
       "level": "Level 5",
@@ -1160,19 +1088,13 @@
       "level": "Level 5",
       "markdown": "_5th-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 90  \n**Components:** V  \n**Duration:** Concentration, up to 1 minute\n\nFlames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 7d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell’s duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes 3d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can’t be extinguished through nonmagical means.\n\nIf damage from this spell reduces a target to 0 hit points, the target is turned to ash.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Immolation"
+      "name": "Immolation &#955"
     },
     {
       "level": "Level 5",
       "markdown": "_5th-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 300 feet  \n**Components:** V, S, M (a few grains of sugar, some kernels of grain, and a smear of fat)  \n**Duration:** Concentration, up to 10 minutes\n\nSwarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere’s area is difficult terrain.\n\nWhen the area appears, each creature in it must make a Constitution saving throw. A creature takes 4d10 piercing damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw when it enters the spell’s area for the first time on a turn or ends its turn there.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.\n\n**_Spell Lists._** [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)",
       "classes": "Sorcerer",
       "name": "Insect Plague"
-    },
-    {
-      "level": "Level 5",
-      "markdown": "_5th-level abjuration_  \n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V, S  \n**Duration:** Concentration, up to 10 minutes\n\nFor the duration, you or one willing creature you can see within range has resistance to psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.\n\n**_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Bard, Sorcerer",
-      "name": "Intellect Fortress (UA)"
     },
     {
       "level": "Level 5",
@@ -1246,7 +1168,7 @@
       "level": "Level 6",
       "markdown": "_6th-level conjuration_\n\n**Casting Time:** 1 action  \n**Range:** 500 feet  \n**Components:** V, S  \n**Duration:** Concentration, up to 10 minutes\n\nYou create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.\n\nThe portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.\n\nAny creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Arcane Gate"
+      "name": "Arcane Gate &#955"
     },
     {
       "level": "Level 6",
@@ -1294,25 +1216,25 @@
       "level": "Level 6",
       "markdown": "_6th-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V, S  \n**Duration:** Concentration, up to 10 minutes\n\nFlames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell’s duration. The flames don’t harm you. Until the spell ends, you gain the following benefits:\n\n• You are immune to fire damage and have resistance to cold damage.  \n• Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.  \n• You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Investiture of Flame"
+      "name": "Investiture of Flame &#955"
     },
     {
       "level": "Level 6",
       "markdown": "_6th-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V, S  \n**Duration:** Concentration, up to 10 minutes\n\nUntil the spell ends, ice rimes your body, and you gain the following benefits:\n\n• You are immune to cold damage and have resistance to fire damage.  \n• You can move across difficult terrain created by ice or snow without spending extra movement.  \n• The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.  \n• You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Investiture of Ice"
+      "name": "Investiture of Ice &#955"
     },
     {
       "level": "Level 6",
       "markdown": "_6th-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** V, S  \n**Components:** Self  \n**Duration:** Concentration, up to 1 minute\n\nUntil the spell ends, bits of rock spread across your body, and you gain the following benefits:\n\n• You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.  \n• You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone.  \n• You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can’t end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Investiture of Stone"
+      "name": "Investiture of Stone &#955"
     },
     {
       "level": "Level 6",
       "markdown": "_6th-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V, S  \n**Duration:** Concentration, up to 1 minute\n\nUntil the spell ends, wind whirls around you, and you gain the following benefits:\n\n• Ranged weapon attacks made against you have disadvantage on the attack roll.  \n• You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.  \n• You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.\n\n**_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Investiture of Wind"
+      "name": "Investiture of Wind &#955"
     },
     {
       "level": "Level 6",
@@ -1328,27 +1250,15 @@
     },
     {
       "level": "Level 6",
-      "markdown": "_6th-level transmutation_\n\n**Casting Time:** 1 action  \n**Range:** Self  \n**Components:** V, S, M (an object engraved with a symbol of the Outer Planes, worth at least 500 gp)  \n**Duration:** Concentration, up to 1 minute\n\nUttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:\n\n*   You are immune to fire and poison damage (Lower Planes) or radiant and necrotic damage (Upper Planes).\n*   You are immune to the poisoned condition (Lower Planes) or the charmed condition (Upper Planes).\n*   Spectral wings appear on your back, giving you a flying speed of 40 feet.\n*   You have a +2 bonus to AC.\n*   All your weapon attacks are magical, and when you make a weapon attack, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls.\n*   You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks\n\n**_Spell Lists._** [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Otherworldly Form (UA)"
-    },
-    {
-      "level": "Level 6",
       "markdown": "_6th-level enchantment_\n\n**Casting Time:** 1 action  \n**Range:** 30 feet  \n**Components:** V  \n**Duration:** Concentration, up to 1 minute\n\nChoose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can’t be charmed are immune to this spell.\n\nA dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
-      "name": "Otto&apos;s Irresistible Dance"
+      "name": "Otto&apos;s Irresistible Dance &#955"
     },
     {
       "level": "Level 6",
       "markdown": "_6th-level illusion_\n\n**Casting Time:** 1 action  \n**Range:** 120 feet  \n**Components:** V, S, M (a bit of fleece and jade dust worth at least 25 gp  \n**Duration:** Until dispelled\n\nYou create an illusion of an object, a creature, or some other visible phenomenon within range that activates when a specific condition occurs. The illusion is imperceptible until then. It must be no larger than a 30-foot cube, and you decide when you cast the spell how the illusion behaves and what sounds it makes. This scripted performance can last up to 5 minutes.\n\nWhen the condition you specify occurs, the illusion springs into existence and performs in the manner you described. Once the illusion finishes performing, it disappears and remains dormant for 10 minutes. After this time, the illusion can be activated again.\n\nThe triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.\n\nPhysical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
       "name": "Programmed Illusion"
-    },
-    {
-      "level": "Level 6",
-      "markdown": "_6th-level enchantment_  \n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** 1 minute\n\nYou overload the mind of one creature you can see within range, filling its psyche with discordant emotions. The target must make an Intelligence saving throw. On a failed save, the target takes 12d6 psychic damage and is stunned for 1 minute. On a successful save, the target takes half as much damage and isn’t stunned.\n\nThe stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the spell ends on the target.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
-      "classes": "Sorcerer",
-      "name": "Psychic Crush (UA)"
     },
     {
       "level": "Level 6",
@@ -1404,13 +1314,13 @@
       "level": "Level 7",
       "markdown": "_7th-level conjuration_\n\n**Casting Time:** 1 minute  \n**Range:** 300 feet  \n**Components:** V, S, M (a miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon, each item worth at least 5 gp)  \n**Duration:** 24 hours\n\nYou conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.\n\nBeyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.\n\nYou can create any floor plan you like, but the space can’t exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can’t attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can’t leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
-      "name": "Mordenkainen&apos;s Magnificent Mansion"
+      "name": "Mordenkainen&apos;s Magnificent Mansion &#955"
     },
     {
       "level": "Level 7",
       "markdown": "_7th-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S, M (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)  \n**Duration:** Concentration, up to 1 minute\n\nYou create a sword-shaped plane of force that hovers within range. It lasts for the duration.\n\nWhen the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit. the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard",
-      "name": "Mordenkainen&apos;s Sword"
+      "name": "Mordenkainen&apos;s Sword &#955"
     },
     {
       "level": "Level 7",
@@ -1466,7 +1376,7 @@
       "level": "Level 8",
       "markdown": "_8th-level necromancy_\n\n**Casting Time:** 1 action  \n**Range:** 150 feet  \n**Components:** V, S, M (a bit of sponge)  \n**Duration:** Instantaneous\n\nYou draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren’t affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 10d8 necrotic damage on a failed save, or half as much damage on a successful one.\n\n**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Sorcerer",
-      "name": "Abi-Dalzim&apos;s Horrid Wilting"
+      "name": "Abi-Dalzim&apos;s Horrid Wilting &#955"
     },
     {
       "level": "Level 8",
@@ -1508,7 +1418,7 @@
       "level": "Level 8",
       "markdown": "_8th-level enchantment_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V, S  \n**Duration:** Instantaneous\n\nYou speak a word of power that can overwhelm the mind of one creature you can see within range, leaving it dumbfounded. If the target has 150 hit points or fewer, it is stunned. Otherwise, the spell has no effect. The stunned target must make a Constitution saving throw at the end of each of its turns. On a successful save, this stunning effect ends.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Power Word: Stun"
+      "name": "Power Word: Stun &#955"
     },
     {
       "level": "Level 8",
@@ -1540,13 +1450,13 @@
       "level": "Level 9",
       "markdown": "_9th-level evocation_\n\n**Casting Time:** 1 action  \n**Range:** Touch  \n**Components:** V, S  \n**Duration:** Instantaneous\n\nA wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard)",
       "classes": "Bard",
-      "name": "Power Word: Heal"
+      "name": "Power Word: Heal &#955"
     },
     {
       "level": "Level 9",
       "markdown": "_9th-level enchantment_\n\n**Casting Time:** 1 action  \n**Range:** 60 feet  \n**Components:** V  \n**Duration:** Instantaneous\n\nYou utter a word of power that can compel one creature you can see within range to die instantly. If the creature you chose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect.\n\n**_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)",
       "classes": "Bard, Sorcerer",
-      "name": "Power Word: Kill"
+      "name": "Power Word: Kill &#955"
     },
     {
       "level": "Level 9",
