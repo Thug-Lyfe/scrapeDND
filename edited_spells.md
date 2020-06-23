@@ -2,11 +2,30 @@
 <style>
   .phb{
     width : 210mm;
-    height : 296.8mm;
+    height : 297mm;
   }
   a {
   	color:unset
   }
+
+  .phb:not(#p1):not(#p2):not(#p3):not(#p4):not(#p5):not(#p6):not(#p7):not(#p8)::before {
+  	
+    content: counter(phb-page-numbers);
+  	position: absolute;
+    right: 2px;
+    bottom: 22px;
+    width: 50px;
+    font-size: .9em;
+    color: #c9ad6a;
+    text-align: center;
+  }
+  .phb:not(#p1):not(#p2):not(#p3):not(#p4):not(#p5):not(#p6):not(#p7):not(#p8)(even)::before {
+  	left:2px
+  }
+  
+  .phb:nth-child(even)::before{
+    left: 2px;
+}
 </style>
 
 <img 
@@ -17,7 +36,6 @@
 <div style='margin-top:605px'>
 
 </div>
-
 
 
 
@@ -84,6 +102,7 @@ Your Bardic Inspiration die changes when you reach certain levels in this class.
 
 Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus.
 \page
+<div class='pageNumber auto'></div>
 
 ### Song of Rest
 
@@ -328,6 +347,11 @@ At 20th level, you regain 4 expended sorcery points whenever you finish a short 
 
 \page
 <img 
+  src='https://i.imgur.com/BVFhD7z.jpg' 
+  style='position:absolute; top:0px; right:0px; width:210mm; height:296.8mm' />
+
+\page
+<img 
   src='https://i.imgur.com/hraWotm.jpg' 
   style='position:absolute; top:0px; right:0px; width:210mm; height:296.8mm' />
 \page
@@ -349,7 +373,7 @@ You hurl a bubble of acid. Choose one creature within range, or choose two creat
 **_At Higher Levels._** This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Blade Ward &#955;
+## Blade Ward
 _Abjuration cantrip_
 
 **Casting Time:** 1 action  
@@ -422,7 +446,7 @@ You create a bonfire on ground that you can see within range. Until the spells e
 **_At Higher Levels._** The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+\page
 ## Dancing Lights
 _Evocation cantrip_
 
@@ -449,6 +473,7 @@ You hurl a mote of fire at a creature or object within range. Make a ranged spel
 **_At Higher Levels._** This spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
 ## Friends
 _Enchantment cantrip_
 
@@ -461,8 +486,7 @@ For the duration, you have advantage on all Charisma checks directed at one crea
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-```
-```
+
 
 ## Frostbite &#955;
 _Evocation cantrip_
@@ -507,7 +531,7 @@ You seize the air and compel it to create one of the following effects at a poin
 • You create a harmless sensory affect using air, such as causing leaves to rustle, wind to slam shutters shut, or your clothing to ripple in a breeze.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Infestation &#955;
 _Conjuration cantrip_
 
@@ -517,7 +541,7 @@ _Conjuration cantrip_
 **Duration:** Instantaneous
 
 You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes 1d6 poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn’t provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.
-
+\page
 **_At Higher Levels._** The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
@@ -548,8 +572,7 @@ You create a lash of lightning energy that strikes at one creature of your choic
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-```
-```
+
 
 ## Mage Hand
 _Conjuration cantrip_
@@ -579,6 +602,7 @@ This spell repairs a single break or tear in an object you touch, such as a brok
 This spell can physically repair a magic item or construct, but the spell can’t restore magic to such an object.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
 ## Message
 _Transmutation cantrip_
 
@@ -592,7 +616,7 @@ You point your finger toward a creature within range and whisper a message. The 
 You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The spell doesn’t have to follow a straight line and can travel freely around corners or through openings.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Minor Illusion
 _Illusion cantrip_
 
@@ -610,6 +634,8 @@ If you create an image of an object—such as a chair, muddy footprints, or a sm
 If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
+\page
 ## Mold Earth &#955;
 _Transmutation cantrip_
 
@@ -630,8 +656,7 @@ If you cast this spell multiple times, you can have no more than two of its non-
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-```
-```
+
 
 ## Poison Spray
 _Conjuration cantrip_
@@ -688,7 +713,7 @@ A frigid beam of blue-white light streaks toward a creature within range. Make a
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-\page 
+ 
 
 ## Shape Water &#955;
 _Transmutation cantrip_
@@ -711,6 +736,7 @@ You choose an area of water that you can see within range and that fits within a
 If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
 ## Shocking Grasp
 _Evocation cantrip_
 
@@ -724,6 +750,8 @@ Lightning springs from your hand to deliver a shock to a creature you try to tou
 **_At Higher Levels._** The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
+\page
 ## Sword Burst &#955;
 _Conjuration cantrip_
 
@@ -738,8 +766,7 @@ You create a momentary circle of spectral blades that sweep around you. Each cre
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-```
-```
+
 
 ## Thunderclap &#955;
 _Evocation cantrip_
@@ -779,7 +806,7 @@ You unleash a string of insults laced with subtle enchantments at a creature you
 **_At Higher Levels._** This spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard)
-\page 
+
 # Level 1
 ## Animal Friendship
 _1st-level enchantment (ritual)_
@@ -823,9 +850,8 @@ The fire ignites any flammable objects in the area that aren’t being worn or c
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-```
-```
 
+\page
 ## Catapult &#955;
 _1st-level transmutation_
 
@@ -867,7 +893,7 @@ A creature can be targeted only once by each casting of this spell.
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)
-\page 
+
 ## Charm Person
 _1st-level enchantment_
 
@@ -881,7 +907,7 @@ You attempt to charm a humanoid you can see within range. It must make a Wisdom 
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Chromatic Orb &#955;
+## Chromatic Orb
 _1st-level evocation_
 
 **Casting Time:** 1 action  
@@ -909,8 +935,7 @@ Starting with the creature that has the lowest current hit points, each creature
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Comprehend Languages
 _1st-level divination (ritual)_
 
@@ -918,7 +943,7 @@ _1st-level divination (ritual)_
 **Range:** Self  
 **Components:** V, S, M (a pinch of soot and salt)  
 **Duration:** 1 hour
-
+\page
 For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text.
 
 This spell doesn’t decode secret messages in a text or glyph, such as an arcane sigil, that isn’t part of a written language.
@@ -952,7 +977,6 @@ The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Paladin](http://dnd5e.wikidot.com/spells:paladin), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-\page
 
 ## Disguise Self
 _1st-level illusion_
@@ -967,7 +991,7 @@ You make yourself – —including your clothing, armor, weapons, and other belo
 The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair. To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Dissonant Whispers &#955;
+## Dissonant Whispers
 _1st-level enchantment_
 
 **Casting Time:** 1 action  
@@ -1004,6 +1028,8 @@ _1st-level transmutation_
 This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
+\page
 ## Faerie Fire
 _1st-level evocation_
 
@@ -1048,7 +1074,7 @@ Choose up to five falling creatures within range. A falling creature’s rate of
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-\page
+
 ## Fog Cloud
 _1st-level conjuration_
 
@@ -1062,6 +1088,9 @@ You create a 20-foot-radius sphere of fog centered on a point within range. The 
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
+```
+```
 ## Guiding Hand &#955;
 _1st-level divination (ritual)_
 
@@ -1078,7 +1107,6 @@ If you don’t move toward the hand, it remains in place until you do and beckon
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-_HBThis spell is massively overpowered. For example, a 1st-level character could use this spell to effortlessly locate the lost city of Atlantis. I would recommend not allowing it._
 
 
 
@@ -1095,8 +1123,7 @@ A creature of your choice that you can see within range regains hit points equal
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid)
-```
-```
+
 ## Heroism
 _1st-level enchantment_
 
@@ -1110,7 +1137,7 @@ A willing creature you touch is imbued with bravery. Until the spell ends, the c
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Paladin](http://dnd5e.wikidot.com/spells:paladin)
-
+\page
 ## Ice Knife &#955;
 _1st-level conjuration_
 
@@ -1139,7 +1166,7 @@ You choose one object that you must touch throughout the casting of the spell. I
 If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page
+
 ## Illusory Script
 _1st-level illusion_
 
@@ -1155,6 +1182,8 @@ To you and any creatures you designate when you cast the spell, the writing appe
 Should the spell be dispelled, the original script and the illusion both disappear. A creature with truesight can read the hidden message.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+```
+```
 ## Jump
 _1st-level transmutation_
 
@@ -1190,8 +1219,7 @@ _1st-level abjuration_
 You touch a willing creature who isn’t wearing armor, and a protective magical force surrounds it until the spell ends. The target’s base AC becomes 13 + its Dexterity modifier. The spell ends it if the target dons armor or if you dismiss the spell as an action.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Magic Missile
 _1st-level evocation_
 
@@ -1205,8 +1233,8 @@ You create three glowing darts of magical force. Each dart hits a creature of yo
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
- 
-## Ray of Sickness &#955;
+ \page
+## Ray of Sickness
 _1st-level necromancy_
 
 **Casting Time:** 1 action  
@@ -1244,7 +1272,7 @@ _1st-level abjuration_
 An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from [Magic Missile](http://dnd5e.wikidot.com/spell:magic-missile).
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page
+
 ## Silent Image
 _1st-level illusion_
 
@@ -1260,6 +1288,8 @@ You can use your action to cause the image to move to any spot within range. As 
 Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
+
 ## Sleep
 _1st-level enchantment_
 
@@ -1275,8 +1305,7 @@ Starting with the creature that has the lowest current hit points, each creature
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 
 ## Speak with Animals
 _1st-level divination (ritual)_
@@ -1301,8 +1330,8 @@ Each sleeping creature you choose within range awakens, and then each prone crea
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-
-## Tasha&apos;s Hideous Laughter &#955;
+\page
+## Tasha&apos;s Hideous Laughter
 _1st-level enchantment_
 
 **Casting Time:** 1 action  
@@ -1315,7 +1344,7 @@ A creature of your choice that you can see within range perceives everything as 
 At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it’s triggered by damage. On a success, the spell ends.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+ 
 ## Thunderwave
 _1st-level evocation_
 
@@ -1360,7 +1389,7 @@ If you command the servant to perform a task that would move it more than 60 fee
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-## Witch Bolt &#955;
+## Witch Bolt
 _1st-level evocation_
 
 **Casting Time:** 1 action  
@@ -1373,7 +1402,7 @@ A beam of crackling, blue energy lances out toward a creature within range, form
 **_At Higher Levels._** When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d12 for each slot level above 1st.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+\page
 # Level 2
 ## Aganazzar&apos;s Scorcher &#955;
 _2nd-level evocation_
@@ -1405,8 +1434,7 @@ You assume a different form. When you cast the spell, choose one of the followin
 **_Natural Weapons._** You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 
 ## Animal Messenger
 _2nd-level enchantment (ritual)_
@@ -1448,7 +1476,7 @@ _2nd-level illusion_
 Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+\page
 ## Calm Emotions
 _2nd-level enchantment_
 
@@ -1462,7 +1490,7 @@ You attempt to suppress strong emotions in a group of people. Each humanoid in a
 Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric)
-## Cloud of Daggers &#955;
+## Cloud of Daggers
 _2nd-level conjuration_
 
 **Casting Time:** 1 action  
@@ -1475,7 +1503,7 @@ You fill the air with spinning daggers in a cube 5 feet on each side, centered o
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Crown of Madness &#955;
+## Crown of Madness
 _2nd-level enchantment_
 
 **Casting Time:** 1 action  
@@ -1530,9 +1558,9 @@ _2nd-level divination_
 For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn’t speak any language, the creature is unaffected.
 
 You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature’s thoughts or attempt to probe deeper into the same creature’s mind. If you probe deeper, the target must make a W isdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that loom s large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature’s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.
-\page 
-Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.
 
+Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.
+\page
 You can also use this spell to detect the presence of thinking creatures you can’t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can’t detect a creature with an Intelligence of 3 or lower or one that doesn’t speak any language.
 
 Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can’t see it, but it must still be within range.
@@ -1569,9 +1597,9 @@ As a bonus action, you can move the dust devil up to 30 feet in any direction. I
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
 
+```
+```
 ## Earthbind &#955;
 _2nd-level transmutation_
 
@@ -1619,13 +1647,13 @@ _2nd-level transmutation_
 You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.
 
 If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.
-\page 
+ 
 **_Enlarge._** The target’s size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category – from Medium to Large, for example. If there isn’t enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target’s weapons also grow to match its new size. While these weapons are enlarged, the target’s attack with them deal 1d4 extra damage.
 
 **_Reduce._** The target’s size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category – from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target’s weapons also shrink to match its new size. While these weapons are reduced, the target’s attacks with them deal 1d4 less damage (this can’t reduce the damage below 1).
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
- 
+ \page
 ## Enthrall
 _2nd-level enchantment_
 
@@ -1654,8 +1682,7 @@ The gust disperses gas or vapor, and it extinguishes candles, torches, and simil
 As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 
 ## Heat Metal
 _2nd-level transmutation_
@@ -1672,6 +1699,8 @@ If a creature is holding or wearing the object and takes the damage from it, the
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid)
+
+
 ## Hold Person
 _2nd-level enchantment_
 
@@ -1698,7 +1727,7 @@ A creature you touch becomes invisible until the spell ends. Anything the target
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Knock
 _2nd-level transmutation_
 
@@ -1742,8 +1771,7 @@ The target can move only by pushing or pulling against a fixed object or surface
 When the spell ends, the target floats gently to the ground if it is still aloft.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+\page
 ## Locate Animals or Plants
 _2nd-level divination (ritual)_
 
@@ -1782,10 +1810,11 @@ _2nd-level illusion (ritual)_
 You implant a message within an object in range, a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn’t being worn or carried by another creature. Then speak the message, which must be 25 words or less, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the spell to deliver your message.
 
 When that circumstance occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there so that words appear to come from the object’s mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeats its message whenever the trigger occurs.
-\page
+
 The triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+
 ## Maximillian&apos;s Earthen Grasp &#955;
 _2nd-level transmutation_
 
@@ -1833,7 +1862,7 @@ _2nd-level conjuration_
 Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Phantasmal Force &#955;
+## Phantasmal Force
 _2nd-level illusion_
 
 **Casting Time:** 1 action  
@@ -1848,11 +1877,11 @@ The phantasm includes sound, temperature, and other stimuli, also evident only t
 The target can use its action to examine the phantasm with an Intelligence (Investigation) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.
 
 While a target is affected by the spell, the target treats the phantasm as if it were real. The target rationalizes any illogical outcomes from interacting with the phantasm. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall—it was pushed, it slipped, or a strong wind might have knocked it off.
-
+\page
 An affected target is so convinced of the phantasm’s reality that it can even take damage from the illusion. A phantasm created to appear as a creature can attack the target. Similarly, a phantasm created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the phantasm can deal 1d6 psychic damage to the target if it is in the phantasm’s area or within 5 feet of the phantasm, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Pyrotechnics &#955;
 _2nd-level transmutation_
 
@@ -1896,8 +1925,7 @@ _2nd-level evocation_
 **Range:** 60 feet  
 **Components:** V, S, M (a chip of mica)  
 **Duration:** Instantaneous
-```
-```
+
 A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.
 
 A nonmagical object that isn’t being worn or carried also takes the damage if it’s in the spell’s area.
@@ -1905,7 +1933,8 @@ A nonmagical object that isn’t being worn or carried also takes the damage if 
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-
+```
+```
 ## Silence
 _2nd-level illusion (ritual)_
 
@@ -1942,7 +1971,7 @@ A flurry of magic snowballs erupts from a point you choose within range. Each cr
 **_At Higher Levels._** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Spider Climb
 _2nd-level transmutation_
 
@@ -1965,7 +1994,7 @@ _2nd-level enchantment_
 You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can’t be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.
 
 The target must make a Wisdom saving throw. On a failed save, it purses the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.
-
+\page
 You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn’t met before the spell expires, the activity isn’t preformed.
 
 If you or any of your companions damage the target, the spell ends.
@@ -1994,8 +2023,7 @@ The wind has the following effects:
 • It hedges out vapor, gas, and fog that can be dispersed by strong wind.
 
 **_Spell Lists._** [bard Bard](http://dnd5e.wikidot.com/spells:), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)
-```
-```
+
 ## Web
 _2nd-level conjuration_
 
@@ -2030,7 +2058,7 @@ You create a magical zone that guards against deception in a 15-foot-radius sphe
 An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Paladin](http://dnd5e.wikidot.com/spells:paladin)
-\page 
+
 # Level 3
 ## Bestow Curse
 _3rd-level necromancy_
@@ -2052,6 +2080,8 @@ A [Remove Curse](http://dnd5e.wikidot.com/spell:remove-curse) spell ends this ef
 **_At Higher Levels._** If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn’t require concentration.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+```
+```
 ## Blink
 _3rd-level transmutation_
 
@@ -2077,7 +2107,7 @@ _3rd-level divination_
 **Duration:** Concentration, up to 10 minutes
 
 You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can’t be attacked or otherwise interacted with.
-
+\page
 When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing. A creature that can see the sensor (such as a creature benefitting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
@@ -2098,7 +2128,7 @@ As part of casting the spell, you can scribe a circle on the ground with the blo
 **_At Higher Levels._** When you cast this spell using a spell slot of 6th or 7th level, you summon sixteen demons. If you cast it using a spell slot of 8th or 9th level, you summon thirty-two demons.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Counterspell
 _3rd-level abjuration_
 
@@ -2142,8 +2172,7 @@ Choose any creature, object, or magical effect within range. Any spell of 3rd le
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Paladin](http://dnd5e.wikidot.com/spells:paladin), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-```
-```
+
 
 ## Enemies Abound &#955;
 _3rd-level enchantment_
@@ -2185,7 +2214,7 @@ While frightened by this spell, a creature must take the Dash action and move aw
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 \page 
-## Feign Death &#955;
+## Feign Death
 _3rd-level necromancy (ritual)_
 
 **Casting Time:** 1 action  
@@ -2225,8 +2254,7 @@ You touch a quiver containing arrows or bolts. When a target is hit by a ranged 
 **_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer) , [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 
 ## Fly
 _3rd-level transmutation_
@@ -2269,7 +2297,7 @@ When you cast this spell, you inscribe a glyph that harms other creatures, eithe
 If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place; if the object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
 
 The glyph is nearly invisible and requires a successful Intelligence (Investigation) check against your spell save DC to be found.
-\page
+
 You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.
 
 You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect aberrations or drow), or alignment. You can also set conditions for creatures that don’t trigger the glyph, such as those who say a certain password.
@@ -2283,7 +2311,7 @@ When you inscribe the glyph, choose explosive runes or a spell glyph.
 **_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by 1d8 for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-
+\page
 ## Haste
 _3rd-level transmutation_
 
@@ -2298,8 +2326,7 @@ When the spell ends, the target can’t move or take actions until after its nex
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 
-```
-```
+
 ## Hypnotic Pattern
 _3rd-level illusion_
 
@@ -2313,7 +2340,7 @@ You create a twisting pattern of colors that weaves through the air inside a 30-
 The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Leomund&apos;s Tiny Hut &#955;
+## Leomund&apos;s Tiny Hut
 _3rd-level evocation (ritual)_
 
 **Casting Time:** 1 minute  
@@ -2328,7 +2355,7 @@ Nine creatures of Medium size or smaller can fit inside the dome with you. The s
 Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Lightning Bolt
 _3rd-level evocation_
 
@@ -2344,6 +2371,8 @@ The lightning ignites flammable objects in the area that aren’t being worn or 
 **_At Higher Levels._** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+```
+```
 ## Major Image
 _3rd-level illusion_
 
@@ -2361,8 +2390,7 @@ Physical interaction with the image reveals it to be an illusion, because things
 **_At Higher Levels._** When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration. In this form it is sometimes considered a different spell, known as Permanent Image.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Melf&apos;s Minute Meteors &#955;
 _3rd-level evocation_
 
@@ -2387,7 +2415,7 @@ _3rd-level abjuration_
 For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can’t be targeted by any divination magic or perceived through magical scrying sensors.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-
+\page
 ## Plant Growth
 _3rd-level transmutation_
 
@@ -2406,7 +2434,7 @@ If you cast this spell over 8 hours, you enrich the land. All plants in a half-m
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger)
 
-\page 
+
 ## Protection from Energy
 _3rd-level abjuration_
 
@@ -2446,8 +2474,7 @@ The ground in the area is covered with slick ice, making it difficult terrain. W
 If a creature is concentrating in the spell’s area, the creature must make a successful Constitution saving throw against your spell save DC or lose concentration.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Slow
 _3rd-level transmutation_
 
@@ -2455,7 +2482,8 @@ _3rd-level transmutation_
 **Range:** 120 feet  
 **Components:** V, S, M (a drop of molasses)  
 **Duration:** Concentration, up to 1 minute
-
+```
+```
 You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.
 
 An affected target’s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can’t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature’s abilities or magic items, it can’t make more than one melee or ranged attack during its turn.
@@ -2479,7 +2507,7 @@ You grant the semblance of life and intelligence to a corpse of your choice with
 Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric)
-\page 
+ 
 ## Speak with Plants
 _3rd-level transmutation_
 
@@ -2508,7 +2536,7 @@ _3rd-level conjuration_
 **Duration:** Concentration, up to 1 minute
 
 You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.
-
+\page
 Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don’t need to breathe or are immune to poison automatically succeed on this saving throw.
 
 A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round.
@@ -2526,8 +2554,7 @@ _3rd-level divination_
 This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 
 ## Wall of Water &#955;
 _3rd-level evocation_
@@ -2567,7 +2594,7 @@ This spell grants the ability to move across any liquid surface – such as wate
 If you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)
-\page 
+
 # Level 4
 ## Banishment
 _4th-level abjuration_
@@ -2596,13 +2623,13 @@ _4th-level necromancy_
 
 Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. This spell has no effect on undead or constructs.
 
+
 If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it. If you target a nonmagical plant that isn’t a creature, such as a tree or shrub, it doesn’t make a saving throw; it simply withers and dies.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Compulsion
 _4th-level enchantment_
 
@@ -2616,7 +2643,7 @@ Creatures of your choice that you can see within range and that can hear you mus
 A target isn’t compelled to move into an obviously deadly hazard, such as a fire pit, but it will provoke opportunity attacks to move in the designated direction.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard)
-
+\page
 ## Confusion
 _4th-level enchantment_
 
@@ -2641,7 +2668,7 @@ At the end of its turns, an affected target can make a Wisdom saving throw. It i
 **_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Conjure Barlgura &#955;
 _4th-level conjuration_
 
@@ -2672,8 +2699,7 @@ Roll initiative for the shadow demon, which has its own turns. You can issue ord
 As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned shadow demon cannot cross the circle or target anyone in it while the spell lasts.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Dimension Door
 _4th-level conjuration_
 
@@ -2746,8 +2772,7 @@ You make natural terrain in a 150-foot cube in range look, sound, and smell like
 The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn’t obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 
 ## Ice Storm
 _4th-level evocation_
@@ -2764,6 +2789,8 @@ Hailstones turn the storm’s area of effect into difficult terrain until the en
 **_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+```
+```
 ## Locate Creature
 _4th-level divination_
 
@@ -2790,7 +2817,7 @@ _4th-level transmutation_
 This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. A shapechanger automatically succeeds on this saving throw.
 
 The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target’s (or the target’s level, if it doesn’t have a challenge rating). The target’s game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.
-\page 
+
 The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked unconscious.
 
 The creature is limited in the actions it can perform by the nature of its new form, and it can’t speak, cast spells, or take any other action that requires hands or speech.
@@ -2809,7 +2836,7 @@ _4th-level abjuration_
 This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Druid](http://dnd5e.wikidot.com/spells:druid), [Ranger](http://dnd5e.wikidot.com/spells:ranger), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-
+\page
 ## Storm Sphere &#955;
 _4th-level evocation_
 
@@ -2827,8 +2854,7 @@ Creatures within 30 feet of the sphere have disadvantage on Wisdom (Perception) 
 **_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the damage increases for each of its effects by 1d6 for each slot level above 4th.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Vitriolic Sphere &#955;
 _4th-level evocation_
 
@@ -2859,7 +2885,8 @@ One side of the wall, selected by you when you cast this spell, deals 5d8 fire d
 **_At Higher Levels._** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+```
+```
 ## Watery Sphere &#955;
 _4th-level conjuration_
 
@@ -2941,7 +2968,7 @@ The fog moves 10 feet away from you at the start of each of your turns, rolling 
 **_At Higher Levels._** When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Cone of Cold
 _5th-level evocation_
 
@@ -2966,7 +2993,7 @@ _5th-level conjuration_
 You summon a vrock that appears in an unoccupied space you can see within range. The vrock disappears when it drops to 0 hit points or when the spell ends.
 
 The vrock’s attitude depends on the value of the gem used as a material component for this spell. Roll initiative for the vrock, which has its own turns. At the start of the vrock’s turn, the DM makes a secret Charisma check on your behalf, with a bonus equal to the gem’s value divided by 20. The check DC starts at 10 and increases by 2 each round. You can issue orders to the vrock and have it obey you as long as you succeed on the Charisma check.
-
+\page
 If the check fails, the spell no longer requires concentration and the vrock is no longer under your control. The vrock takes no actions on its next turn and uses its telepathy to tell any creature it can see that it will fight in exchange for treasure. The creature that gives the vrock the most expensive gem can command it for the next 1d6 rounds. At the end of that time, it offers the bargain again. If no one offers the vrock treasure before its next turn begins, it attacks the nearest creatures for 1d6 rounds before returning to the Abyss.
 
 As part of casting the spell, you can scribe a circle on the ground using the blood of an intelligent humanoid slain within the past 24 hours. The circle is large enough to encompass your space. The summoned vrock cannot cross the circle or target anyone in it while the spell lasts.
@@ -3016,7 +3043,7 @@ Using any material created by this spell as another spell’s material component
 **_At Higher Levels._** When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.
 
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Dominate Person
 _5th-level enchantment_
 
@@ -3053,7 +3080,7 @@ You can make the messenger appear monstrous and terrifying to the target. If you
 If you have a body part, lock of hair, clipping from a nail, or similar portion of the target’s body, the target makes its saving throw with disadvantage.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-
+\page
 ## Geas
 _5th-level enchantment_
 
@@ -3071,7 +3098,7 @@ You can issue any command you choose, short of an activity that would result in 
 **_At Higher Levels._** When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Paladin](http://dnd5e.wikidot.com/spells:paladin), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Greater Restoration
 _5th-level abjuration_
 
@@ -3114,8 +3141,7 @@ Flames wreathe one creature you can see within range. The target must make a Dex
 If damage from this spell reduces a target to 0 hit points, the target is turned to ash.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 
 ## Insect Plague
 _5th-level conjuration_
@@ -3145,7 +3171,7 @@ Name or describe a person, place, or object. The spell brings to your mind a bri
 The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Mass Cure Wounds
 _5th-level evocation_
 
@@ -3168,7 +3194,7 @@ _5th-level illusion_
 **Duration:** Concentration, up to 1 hour
 
 You become invisible at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell.
-
+\page
 You can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose.
 
 You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.
@@ -3211,7 +3237,7 @@ A bound creature must follow your instructions to the best of its ability. You m
 **_At Higher Levels._** When you cast this spell using a spell slot of a higher level, the duration increases to 10 days with a 6th-level slot, 30 days with a 7th-level slot, 180 days with an 8th-level slot, or 1 year and 1 day with a 9th-level spell slot.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+ 
 ## Raise Dead
 _5th-level necromancy_
 
@@ -3258,7 +3284,7 @@ On a failed save, the spell creates an invisible sensor within 10 feet of the ta
 Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn’t move.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-
+\page
 ## Seeming
 _5th-level illusion_
 
@@ -3276,7 +3302,7 @@ The changes wrought by this spell fail to hold up to physical inspections. For e
 A creature can use its action to inspect a target and make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+ 
 ## Telekinesis
 _5th-level transmutation_
 
@@ -3343,7 +3369,7 @@ If you maintain your concentration on this spell for its whole duration, the wal
 **_Spell Lists._** [Artificer](http://dnd5e.wikidot.com/spells:artificer), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
 \page 
 # Level 6
-## Arcane Gate &#955;
+## Arcane Gate
 _6th-level conjuration_
 
 **Casting Time:** 1 action  
@@ -3423,7 +3449,7 @@ For the spell’s duration, your eyes become an inky void imbued with dread powe
 • **Sickened.** The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another Wisdom saving throw. If it succeeds, the effect ends.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
- \page 
+
 ## Find the Path
 _6th-level divination_
 
@@ -3446,14 +3472,13 @@ _6th-level abjuration_
 **Duration:** Concentration, up to 1 minute
 
 An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.
-
+\page
 Any spell of 5th level or lower cast from outside the barrier can’t affect creatures or objects within it, even if the spell is cast using a higher level spell slot. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such spells.
 
 **_At Higher Levels._** When you cast this spell using a spell slot of 7th level or higher, the barrier blocks spells of one level higher for each slot level above 6th.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 
 ## Guards and Wards
 _6th-level abjuration_
@@ -3489,7 +3514,7 @@ You can place your choice of one of the following magical effects within the war
 The whole warded area radiates magic. A [Dispel Magic](http://dnd5e.wikidot.com/spell:dispel-magic) cast on a specific effect, if successful, removes only that effect. You can create a permanently Guarded and Warded structure by casting this spell there every day for one year.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Investiture of Flame &#955;
 _6th-level transmutation_
 
@@ -3521,8 +3546,7 @@ Until the spell ends, ice rimes your body, and you gain the following benefits:
 • You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Investiture of Stone &#955;
 _6th-level transmutation_
 
@@ -3592,7 +3616,7 @@ This spell can’t manipulate natural stone or stone construction. Rocks and str
 Similarly, this spell doesn’t directly affect plant growth. The moved earth carries any plants along with it.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Otto&apos;s Irresistible Dance &#955;
+## Otto&apos;s Irresistible Dance
 _6th-level enchantment_
 
 **Casting Time:** 1 action  
@@ -3622,7 +3646,7 @@ The triggering condition can be as general or as detailed as you like, though it
 Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 ## Sunbeam
 _6th-level evocation_
 
@@ -3715,7 +3739,7 @@ A storm made up of sheets of roaring flame appears in a location you choose with
 The fire damages objects in the area and ignites flammable objects that aren’t being worn or carried. If you choose, plant life in the area is unaffected by this spell.
 
 **_Spell Lists._** [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)
-\page
+
 ## Forcecage
 _7th-level evocation_
 
@@ -3749,13 +3773,13 @@ _7th-level illusion_
 You make terrain in an area up to 1 mile square look, sound, smell, and even feel like some other sort of terrain. The terrain’s general shape remains the same, however. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.
 
 Similarly, you can alter the appearance of structures, or add them where none are present. The spell doesn’t disguise, conceal, or add creatures.
-
+\page
 The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground into difficult terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell’s area disappears immediately.
 
 Creatures with truesight can see through the illusion to the terrain’s true form; however, all other elements of the illusion remain, so while the creature is aware of the illusion’s presence, the creature can still physically interact with the illusion.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Druid](http://dnd5e.wikidot.com/spells:druid), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Mordenkainen&apos;s Magnificent Mansion &#955;
+## Mordenkainen&apos;s Magnificent Mansion
 _7th-level conjuration_
 
 **Casting Time:** 1 minute  
@@ -3770,7 +3794,7 @@ Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmo
 You can create any floor plan you like, but the space can’t exceed 50 cubes, each cube being 10 feet on each side. The place is furnished and decorated as you choose. It contains sufficient food to serve a nine-course banquet for up to 100 people. A staff of 100 near-transparent servants attends all who enter. You decide the visual appearance of these servants and their attire. They are completely obedient to your orders. Each servant can perform any task a normal human servant could perform, but they can’t attack or take any action that would directly harm another creature. Thus the servants can fetch things, clean, mend, fold clothes, light fires, serve food, pour wine, and so on. The servants can go anywhere in the mansion but can’t leave it. Furnishings and other objects created by this spell dissipate into smoke if removed from the mansion. When the spell ends, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Mordenkainen&apos;s Sword &#955;
+## Mordenkainen&apos;s Sword
 _7th-level evocation_
 
 **Casting Time:** 1 action  
@@ -3783,7 +3807,7 @@ You create a sword-shaped plane of force that hovers within range. It lasts for 
 When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit. the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page
+
 ## Plane Shift
 _7th-level conjuration_
 
@@ -3799,8 +3823,7 @@ Alternatively, if you know the sigil sequence of a teleportation circle on anoth
 You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails the save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence.
 
 **_Spell Lists._** [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
- ```
-```
+
 
 ## Prismatic Spray
 _7th-level evocation_
@@ -3820,7 +3843,7 @@ Eight multicolored rays of light flash from your hand. Each ray is a different c
 | 4 | Green | The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one. |
 | 5 | Blue | The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one. |
 | 6 | Indigo | On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind. |
-| 7 | Violet | On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM’s choosing and is no longer blinded. (Typically, a creature that is on a plane that isn’t its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) |
+| 7 | Violet | On a failed save, the target is blinded. It must make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM’s choosing and is no longer blinded. (Typically, a creature that is on a plane that isn’t its home plane is banished home, other creatures are usually cast into the Astral or Ethereal planes.) |
 | 8 | Special | The target is struck by two rays. Roll twice more, rerolling any 8. |
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
@@ -3855,8 +3878,7 @@ You touch a creature and stimulate its natural healing ability. The target regai
 The target’s severed body members (fingers, legs, tails, and so on), if any, are restored after 2 minutes. If you have the severed part and hold it to the stump, the spell instantaneously causes the limb to knit to the stump.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid)
-```
-```
+
 
 ## Resurrection
 _7th-level necromancy_
@@ -3877,6 +3899,8 @@ Coming back from the dead is an ordeal. The target takes a -4 penalty to all att
 Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can’t cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Cleric](http://dnd5e.wikidot.com/spells:cleric)
+```
+```
 ## Reverse Gravity
 _7th-level transmutation_
 
@@ -3892,7 +3916,7 @@ If some solid object (such as a ceiling) is encountered in this fall, falling ob
 At the end of the duration, affected objects and creatures fall back down.
 
 **_Spell Lists._** [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page
+
 ## Symbol
 _7th-level abjuration_
 
@@ -3920,7 +3944,7 @@ When you inscribe the glyph, choose one of the options below for its effect. Onc
 • **Hopelessness.** Each target must make a Charisma saving throw. On a failed save, the target is overwhelmed with despair for 1 minute. During this time, it can't attack or target any creature with harmful abilities, spells, or other magical effects.
 
 • **Insanity.** Each target must make an Intelligence saving throw. On a failed save, the target is driven insane for 1 minute. An insane creature can't take actions, can't understand what other creatures say, can't read, and speaks only in gibberish. The DM controls its movement, which is erratic.
-
+\page
 • **Pain.** Each target must make a Constitution saving throw and becomes incapacitated with excruciating pain for 1 minute on a failed save.
 
 • **Sleep.** Each target must make a Wisdom saving throw and falls unconscious for 10 minutes on a failed save. A creature awakens if it takes damage or if someone uses an action to shake or slap it awake.
@@ -3956,7 +3980,7 @@ The destination you choose must be known to you, and it must be on the same plan
 "Associated object" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb.
 
 "Very familiar" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell.
-\page
+
 "Seen casually" is someplace you have seen more than once but with which you aren't very familiar.
 
 "Viewed once" is a place you have seen once, possibly using magic.
@@ -3974,7 +3998,7 @@ The destination you choose must be known to you, and it must be on the same plan
 • **Mishap.** The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 force damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+
 # Level 8 
 ## Abi-Dalzim&apos;s Horrid Wilting &#955;
 _8th-level necromancy_
@@ -3987,6 +4011,8 @@ _8th-level necromancy_
 You draw the moisture from every creature in a 30-foot cube centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren’t affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 10d8 necrotic damage on a failed save, or half as much damage on a successful one.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
+```
+```
 ## Dominate Monster
 _8th-level enchantment_
 
@@ -4006,8 +4032,7 @@ Each time the target takes damage, it makes a new Wisdom saving throw against th
 _**At Higher Levels.**_ When you cast this spell with a 9th-level spell slot, the duration is concentration, up to 8 hours.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Warlock](http://dnd5e.wikidot.com/spells:warlock), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+\page
 ## Earthquake
 _8th-level evocation_
 
@@ -4030,7 +4055,7 @@ A fissure that opens beneath a structure causes it to automatically collapse (se
 • **Structures.** The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure’s height must make a Dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn’t fall prone or become buried.
 
 **_Spell Lists._** [Cleric](http://dnd5e.wikidot.com/spells:cleric), [Druid](http://dnd5e.wikidot.com/spells:druid), [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer)
-\page 
+ 
 ## Feeblemind
 _8th-level enchantment_
 
@@ -4057,6 +4082,8 @@ _8th-level transmutation_
 Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Warlock](http://dnd5e.wikidot.com/spells:warlock)
+```
+```
 ## Incendiary Cloud
 _8th-level conjuration_
 
@@ -4072,8 +4099,7 @@ When the cloud appears, each creature in it must make a Dexterity saving throw. 
 The cloud moves 10 feet directly away from you in a direction that you choose at the start of each of your turns.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-```
-```
+
 ## Mind Blank
 _8th-level abjuration_
 
@@ -4085,7 +4111,7 @@ _8th-level abjuration_
 Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils [Wish](http://dnd5e.wikidot.com/spell:wish) spells and spells or effects of similar power used to affect the target’s mind or to gain information about the target.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Power Word: Stun &#955;
+## Power Word: Stun
 _8th-level enchantment_
 
 **Casting Time:** 1 action  
@@ -4154,8 +4180,10 @@ Blazing orbs of fire plummet to the ground at four different points you can see 
 
 The spell damages objects in the area and ignites flammable objects that aren’t being worn or carried.
 
-**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-## Power Word: Heal &#955;
+**_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard
+```
+```
+## Power Word: Heal
 _9th-level evocation_
 
 **Casting Time:** 1 action  
@@ -4166,7 +4194,7 @@ _9th-level evocation_
 A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.
 
 **_Spell Lists._** [Bard](http://dnd5e.wikidot.com/spells:bard)
-## Power Word: Kill &#955;
+## Power Word: Kill
 _9th-level enchantment_
 
 **Casting Time:** 1 action  
@@ -4190,7 +4218,7 @@ You briefly stop the flow of time for everyone but yourself. No time passes for 
 This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.
 
 **_Spell Lists._** [Sorcerer](http://dnd5e.wikidot.com/spells:sorcerer), [Wizard](http://dnd5e.wikidot.com/spells:wizard)
-\page 
+\page
 ## True Polymorph
 _9th-level transmutation_
 
