@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "firebase-functions": "^3.7.0",
     "get-urls": "^9.2.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "puppeteer": "^3.3.0",
     "turndown": "^6.0.0",
     "turndown-plugin-gfm": "^1.0.2",
